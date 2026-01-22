@@ -1,0 +1,2015 @@
+                           ,,,,,,,,,,,,,,
+,Date,Unit,Buying Price VND,Selling Price VND,Quantity Sold,Location Market,Region,Egg Type,Feed Cost VND,Buyer Type,Weather Condition,Event Impact,Source,Notes
+,2015-10-25,per_egg,,3.700,,market in Ho Chi Minh ,South Vietnam,caged,,household,N/A,supply decreases and demand increases: African Swine Fever makes people choose other food source instead (poultry meat/eggs),,"the website is updated on a daily basis
+
+"
+,2022-05-17,per_egg,,2.200,,market in Can Tho,West Vietnam,caged,,retailer,N/A,,https://nhachannuoi.vn/gia-trung-ga-vit-tang-manh-2-000-5-000-dong-chuc/,"the website is updated on a daily basis
+
+"
+,2022-05-17,per_egg,,2.400,,market in Can Tho,West Vietnam,caged,,retailer,N/A,,https://nhachannuoi.vn/gia-trung-ga-vit-tang-manh-2-000-5-000-dong-chuc/,"the website is updated on a daily basis
+
+"
+,2022-05-17,per_egg,,3.500,,market in Can Tho,West Vietnam,duck  ,,household,N/A,,https://nhachannuoi.vn/gia-trung-ga-vit-tang-manh-2-000-5-000-dong-chuc/,"the website is updated on a daily basis
+
+"
+,2022-05-17,per_egg,,3.250,,MM Mega Market An Phu in HCM,South Vietnam,N/A,,household,,,https://nhachannuoi.vn/gia-trung-ga-vit-tang-manh-2-000-5-000-dong-chuc/,"the website is updated on a daily basis
+
+"
+,2022-05-17,per_egg,,2.850,,MM Mega Market An Phu in HCM,South Vietnam,N/A,,household,,,https://nhachannuoi.vn/gia-trung-ga-vit-tang-manh-2-000-5-000-dong-chuc/,"the website is updated on a daily basis
+
+"
+,2022-05-17,per_egg,,4.400,,market in HCM,South Vietnam,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2022-05-17,per_egg,,3.600,,market in HCM,South Vietnam,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2022-06-13,per_egg,,3.150,,market in HCM,South Vietnam,caged,,household,,,https://nhachannuoi.vn/tu-15-6-gia-trung-ga-vit-binh-on-tang-2-000-dong-chuc/,"the website is updated on a daily basis
+
+"
+,2022-06-13,per_egg,,2.500,,market in HCM,South Vietnam,duck,,household,,,https://nhachannuoi.vn/tu-15-6-gia-trung-ga-vit-binh-on-tang-2-000-dong-chuc/,"the website is updated on a daily basis
+
+"
+,2022-06-27,per_egg,,2.000,,N/A,N/A,N/A,,household,,,,"the website is updated on a daily basis
+
+"
+,2022-06-27,per_egg,,5.000,,N/A,N/A,N/A,,household,,,,"the website is updated on a daily basis
+
+"
+,2022-06-28,per_egg,,2.300,,market in Hau Giang,West Vietnam,caged,,retailer,,,,"the website is updated on a daily basis
+
+"
+,2022-06-29,per_egg,,2.500,,market in An Giang,West Vietnam,caged,,retailer,,"Egg prices are surging because prolonged low prices over the past 2 years forced many farms to reduce or stop raising flocks (sharply cutting supply), while African swine fever reduced pork consumption, shifting demand to poultry, eggs, and seafood (boosting egg demand).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2022-12-14,per_egg,,2.500,,N/A,Central Vietnam,duck,,household,,,https://nhachannuoi.vn/nghe-an-trung-ga-vit-giam-gia-sau-nguoi-chan-nuoi-ban-thao-vit-de/,"the website is updated on a daily basis
+
+"
+,2022-12-14,per_egg,,1.900,,N/A,Central Vietnam,caged,,household,,,https://nhachannuoi.vn/nghe-an-trung-ga-vit-giam-gia-sau-nguoi-chan-nuoi-ban-thao-vit-de/,"the website is updated on a daily basis
+
+"
+,2022-12-14,per_egg,,2.500,,N/A,Central Vietnam,caged,,household,,,https://nhachannuoi.vn/nghe-an-trung-ga-vit-giam-gia-sau-nguoi-chan-nuoi-ban-thao-vit-de/,"the website is updated on a daily basis
+
+"
+,2023-03-03,per_egg,,3.000,,N/A,Mekong Delta,duck,,household,,oversupply,https://nhachannuoi.vn/can-tho-gia-trung-gia-cam-va-de-thit-giam/,"the website is updated on a daily basis
+
+"
+,2023-03-04,per_egg,,2.650,,N/A,Mekong Delta,caged,,household,,oversupply,https://nhachannuoi.vn/can-tho-gia-trung-gia-cam-va-de-thit-giam/,"the website is updated on a daily basis
+
+"
+,2023-03-04,per_egg,,2.650,,N/A,Mekong Delta,free_range,,household,,oversupply,https://nhachannuoi.vn/can-tho-gia-trung-gia-cam-va-de-thit-giam/,"the website is updated on a daily basis
+
+"
+,2023-03-28,per_egg,,3.000,,"Tan Dinh Market, HCMC",South Vietnam,free_range,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"
+Average price for 10 eggs"
+,2023-03-28,per_egg,,3.300,,"Tan Dinh Market, HCMC",South Vietnam,caged,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"
+Average price for 10 eggs"
+,2023-03-28,per_egg,,2.500,,Ma Lo Street,South Vietnam,free_range,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"
+Average price for 10 eggs"
+,2023-03-29,per_egg,,2.900,,Ma Lo Street,South Vietnam,caged,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"
+Average price for 10 eggs"
+,2023-03-30,per_egg,,3.300,,Ma Lo Street,South Vietnam,caged,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"
+Average price for 10 eggs"
+,2023-03-30,per_egg,,2.000,,"Van Kiep Market, HCMC",South Vietnam,free_range,,household,,The seller said that the price was low because of egg-laying season,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"
+Average price for 10 eggs"
+,2023-06-14,per_egg,,1.300,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2023-06-15,per_egg,,1.600,,Dong Nai Province,North Vietnam,caged,,household,,"students in their summer holiday -> lower school's consumption
+
+orders from food producers/canteens declined",https://nhachannuoi.vn/gia-trung-gia-cam-giam-sau/,"the website is updated on a daily basis
+
+"
+,2023-06-15,per_egg,,1.700,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2023-06-16,per_egg,,1.800,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2023-06-17,per_egg,,1.600,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2023-07-06,per_egg,,3.600,,N/A,N/A,duck,,household,,,https://vietstock.vn/2023/07/gia-trung-tang-soc-4265-1129865.htm,"the website is updated on a daily basis
+
+"
+,2023-07-06,per_egg,,1.700,,N/A,N/A,caged,,retailer,,,https://vietstock.vn/2023/07/gia-trung-tang-soc-4265-1129865.htm,"the website is updated on a daily basis
+
+"
+,2023-07-06,per_egg,,2.300,,N/A,N/A,caged,,retailer,,,https://vietstock.vn/2023/07/gia-trung-tang-soc-4265-1129865.htm,"the website is updated on a daily basis
+
+"
+,2024-03-19,per_egg,,2.100,,markets in Hai Duong City,North Vietnam,free_range,,household,rainy,"Oversupply + the weather condition at this time reduced storage time, pushing prices down.",https://nhachannuoi.vn/gia-trung-gia-cam-o-hai-duong-giam-manh/,"the website is updated on a daily basis
+
+"
+,2024-03-19,per_egg,,1.800,,markets in Hai Duong City,North Vietnam,caged,,household,rainy,"Oversupply + the weather condition at this time reduced storage time, pushing prices down.",https://nhachannuoi.vn/gia-trung-gia-cam-o-hai-duong-giam-manh/,"the website is updated on a daily basis
+
+"
+,2024-03-19,per_egg,,2.800,,markets in Hai Duong City,North Vietnam,duck,,household,rainy,"Oversupply + the weather condition at this time reduced storage time, pushing prices down.",https://nhachannuoi.vn/gia-trung-gia-cam-o-hai-duong-giam-manh/,"the website is updated on a daily basis
+
+"
+,2024-04-07,per_egg,,3.000,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2024-04-07,per_egg,,1.500,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2024-09-18,per_egg,,2.400,,market in Ho Chi Minh,South Vietnam,free_range,,household,,,https://mayaptrungtuyenquang.com/chan-nuoi-ga/gia-ban-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2024-09-18,per_egg,,2.200,,market in Da Nang,Central Vietnam,free_range,,household,,,https://mayaptrungtuyenquang.com/chan-nuoi-ga/gia-ban-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2024-09-18,per_egg,,2.100,,market in Can Tho,West Vietnam,free_range,,household,,,https://mayaptrungtuyenquang.com/chan-nuoi-ga/gia-ban-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2024-09-18,per_egg,,2.200,,market in Hai Phong,North Vietnam,free_range,,household,,,https://mayaptrungtuyenquang.com/chan-nuoi-ga/gia-ban-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2024-09-18,per_egg,,2.300,,market in Da Lat,Central Vietnam,free_range,,household,,,https://mayaptrungtuyenquang.com/chan-nuoi-ga/gia-ban-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2024-09-18,per_egg,,2.200,,market in Nha Trang,North Vietnam,free_range,,household,,,https://mayaptrungtuyenquang.com/chan-nuoi-ga/gia-ban-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2024-09-18,per_egg,,2.200,,market in Hue,Central Vietnam,free_range,,household,,,https://mayaptrungtuyenquang.com/chan-nuoi-ga/gia-ban-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2025-01-01,per_egg,,2.150,,N/A,N/A,caged,,household,,,https://izegg.com/bang-gia-trung-01-01-2025/,"the website is updated on a daily basis
+
+"
+,2025-01-01,per_egg,,2.250,,N/A,N/A,caged,,household,,,https://izegg.com/bang-gia-trung-01-01-2025/,"the website is updated on a daily basis
+
+"
+,2025-01-01,per_egg,,2.300,,N/A,N/A,caged,,household,,,https://izegg.com/bang-gia-trung-01-01-2025/,"the website is updated on a daily basis
+
+"
+,2025-01-01,per_egg,,2.350,,N/A,N/A,caged,,household,,,https://izegg.com/bang-gia-trung-01-01-2025/,"the website is updated on a daily basis
+
+"
+,2025-01-01,per_egg,,2.450,,N/A,N/A,caged,,household,,,https://izegg.com/bang-gia-trung-01-01-2025/,"the website is updated on a daily basis
+
+"
+,2025-01-01,per_egg,,2.550,,N/A,N/A,caged,,household,,,https://izegg.com/bang-gia-trung-01-01-2025/,"the website is updated on a daily basis
+
+"
+,2025-01-10,per_egg,,1.000,,market in Lam Dong ,Central Vietnam,N/A,,household,,"Egg prices are surging because prolonged low prices over the past 2 years forced many farms to reduce or stop raising flocks (sharply cutting supply), while African swine fever reduced pork consumption, shifting demand to poultry, eggs, and seafood (boosting egg demand).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-01-10,per_egg,,1.500,,market in Lam Dong ,Central Vietnam,N/A,,retailer,,"Egg prices are surging because African swine fever reduced pork consumption (boosting egg demand), prolonged low prices (6-7 months) forced small farmers to release flocks (cutting supply), and exports to Cambodia, Laos, and the Middle East have risen.",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-02-14,per_egg,,1.800,,N/A,North Vietnam,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-02-20,per_egg,,1.800,,market in HCM,South Vietnam,caged,,household,,"Due to the long Tet holiday, the amount of unsold eggs increased by 20-30%, forcing farms to reduce prices to sell goods.",https://vnexpress.net/trung-ga-gia-re-ban-day-duong-tp-hcm-4851455.html,"the website is updated on a daily basis
+
+"
+,2025-02-20,per_egg,,2.000,,market in HCM,South Vietnam,caged,,household,,"Due to the long Tet holiday, the amount of unsold eggs increased by 20-30%, forcing farms to reduce prices to sell goods.",https://vnexpress.net/trung-ga-gia-re-ban-day-duong-tp-hcm-4851455.html,"the website is updated on a daily basis
+
+"
+,2025-02-21,per_egg,,1.500,,market Go Vap in HCM,South Vietnam,caged,,household,,"Due to the long Tet holiday, the amount of unsold eggs increased by 20-30%, forcing farms to reduce prices to sell goods.",https://vnexpress.net/trung-ga-gia-re-ban-day-duong-tp-hcm-4851455.html,"the website is updated on a daily basis
+
+"
+,2025-02-21,per_egg,,1.300,,N/A,South Vietnam,caged,,retailer,,"Due to the long Tet holiday, the amount of unsold eggs increased by 20-30%, forcing farms to reduce prices to sell goods.",https://vnexpress.net/trung-ga-gia-re-ban-day-duong-tp-hcm-4851455.html,"the website is updated on a daily basis
+
+"
+,2025-02-24,per_egg,,1.500,,market in Ho Chi Minh,South Vietnam,caged,,household,,,https://kenh14.vn/vi-sao-trung-ga-tran-cho-gia-chi-1500-dong-qua-215250224164357246.chn,"
+Average price for 10 eggs"
+,2025-02-25,per_egg,,1.500,,market in Ho Chi Minh,South Vietnam,N/A,,household,,,https://cafef.vn/gia-trung-ga-o-viet-nam-giam-sau-sao-khong-xuat-khau-sang-my-188250225131019685.chn,"the website is updated on a daily basis
+
+"
+,2025-02-25,per_egg,,2.000,,market in Ho Chi Minh,South Vietnam,N/A,,household,,,https://cafef.vn/gia-trung-ga-o-viet-nam-giam-sau-sao-khong-xuat-khau-sang-my-188250225131019685.chn,"the website is updated on a daily basis
+
+"
+,2025-02-25,per_egg,,1.900,,market in Ho Chi Minh,South Vietnam,N/A,,household,,,https://cafef.vn/gia-trung-ga-o-viet-nam-giam-sau-sao-khong-xuat-khau-sang-my-188250225131019685.chn,"the website is updated on a daily basis
+
+"
+,2025-02-25,per_egg,,2.200,,market in Ho Chi Minh,South Vietnam,N/A,,household,,,https://cafef.vn/gia-trung-ga-o-viet-nam-giam-sau-sao-khong-xuat-khau-sang-my-188250225131019685.chn,"the website is updated on a daily basis
+
+"
+,2025-02-25,per_egg,,1.800,,market in Ho Chi Minh,South Vietnam,N/A,,household,,,https://cafef.vn/gia-trung-ga-o-viet-nam-giam-sau-sao-khong-xuat-khau-sang-my-188250225131019685.chn,"the website is updated on a daily basis
+
+"
+,2025-02-25,per_egg,,1.900,,market in Ho Chi Minh,South Vietnam,caged,,household,,,https://kenh14.vn/vi-sao-trung-ga-tran-cho-gia-chi-1500-dong-qua-215250224164357246.chn,"
+Average price for 10 eggs"
+,2025-02-26,per_egg,,2.500,,market in Ho Chi Minh,South Vietnam,caged,,household,,,https://kenh14.vn/vi-sao-trung-ga-tran-cho-gia-chi-1500-dong-qua-215250224164357246.chn,"
+Average price for 10 eggs"
+,2025-02-27,per_egg,,2.000,,market in Ho Chi Minh,South Vietnam,caged,,household,,,https://kenh14.vn/vi-sao-trung-ga-tran-cho-gia-chi-1500-dong-qua-215250224164357246.chn,"
+Average price for 10 eggs"
+,2025-02-28,per_egg,,2.200,,market in Ho Chi Minh,South Vietnam,caged,,household,,,https://kenh14.vn/vi-sao-trung-ga-tran-cho-gia-chi-1500-dong-qua-215250224164357246.chn,"
+Average price for 10 eggs"
+,2025-03-01,per_egg,,2.500,,market in Ho Chi Minh,South Vietnam,caged,,household,,,https://kenh14.vn/vi-sao-trung-ga-tran-cho-gia-chi-1500-dong-qua-215250224164357246.chn,"
+Average price for 10 eggs"
+,2025-03-03,per_egg,,1.450,,N/A,North Vietnam,caged,,retailer,,Egg prices fell as post-Tet demand dropped and orders from food producers/canteens declined.,https://nhachannuoi.vn/thai-nguyen-gia-trung-thit-giam-sau/,"the website is updated on a daily basis
+
+"
+,2025-03-03,per_egg,,1.500,,market in Hai Phong,North Vietnam,caged,,household,,"Egg prices surge mainly from reduced supply after 2 years of low prices forcing farms to cut flocks, plus African swine fever shifting demand to eggs; seasonal factors include northern drizzle and high humidity (80-95%) causing quick spoilage and discounted sales, while post-Tet lower consumption, ongoing production, and some families' egg abstinence led to unsold surplus.",https://www.sggp.org.vn/gia-trung-gia-cam-lao-doc-post784283.html,"the website is updated on a daily basis
+
+"
+,2025-03-03,per_egg,,1.000,,market in Vinh Phuc,North Vietnam,caged,,household,,"Egg prices surge mainly from reduced supply after 2 years of low prices forcing farms to cut flocks, plus African swine fever shifting demand to eggs; seasonal factors include northern drizzle and high humidity (80-95%) causing quick spoilage and discounted sales, while post-Tet lower consumption, ongoing production, and some families' egg abstinence led to unsold surplus.",https://www.sggp.org.vn/gia-trung-gia-cam-lao-doc-post784283.html,"the website is updated on a daily basis
+
+"
+,2025-03-03,per_egg,,2.000,,market in Ha Noi,North Vietnam,caged,,household,,"Egg prices surge mainly from reduced supply after 2 years of low prices forcing farms to cut flocks, plus African swine fever shifting demand to eggs; seasonal factors include northern drizzle and high humidity (80-95%) causing quick spoilage and discounted sales, while post-Tet lower consumption, ongoing production, and some families' egg abstinence led to unsold surplus.",https://www.sggp.org.vn/gia-trung-gia-cam-lao-doc-post784283.html,"the website is updated on a daily basis
+
+"
+,2025-03-03,per_egg,,1.200,,N/A,N/A,N/A,,household,,,https://baothainguyen.vn/kinh-te/nong-nghiep/202503/gia-trung-ga-thit-giam-sau-nguoi-chan-nuoi-lao-dao-46302d2/,
+,2025-03-03,per_egg,,1.000,,N/A,N/A,N/A,,household,,,https://baothainguyen.vn/kinh-te/nong-nghiep/202503/gia-trung-ga-thit-giam-sau-nguoi-chan-nuoi-lao-dao-46302d2/,
+,2025-03-03,per_egg,,1.700,,N/A,N/A,N/A,,household,,,https://baothainguyen.vn/kinh-te/nong-nghiep/202503/gia-trung-ga-thit-giam-sau-nguoi-chan-nuoi-lao-dao-46302d2/,
+,2025-03-04,per_egg,,1.400,,market in Ho Chi Minh,South Vietnam,caged,,household,,,https://www.phunuonline.com.vn/gia-trung-ga-giam-nguoi-nuoi-lo-nang-a1543373.html,"
+Average price for 10 eggs"
+,2025-03-05,per_egg,,3.000,,market in Ho Chi Minh,South Vietnam,caged,,retailer,,,https://www.phunuonline.com.vn/gia-trung-ga-giam-nguoi-nuoi-lo-nang-a1543373.html,"
+Average price for 10 eggs"
+,2025-03-06,per_egg,,2.200,,market in Ho Chi Minh,South Vietnam,caged,,household,,,https://www.phunuonline.com.vn/gia-trung-ga-giam-nguoi-nuoi-lo-nang-a1543373.html,"
+Average price for 10 eggs"
+,2025-03-07,per_egg,,2.600,,market in Ho Chi Minh,South Vietnam,caged,,household,,,https://www.phunuonline.com.vn/gia-trung-ga-giam-nguoi-nuoi-lo-nang-a1543373.html,"
+Average price for 10 eggs"
+,2025-03-13,per_egg,,1.800,,market in HCM,South Vietnam,N/A,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-03-13,per_egg,,1.500,,market in HCM,South Vietnam,N/A,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-03-15,per_egg,,2.600,,Kamereo,South Vietnam,caged,,household,,,https://kamereo.vn/blog/vi/gia-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2025-03-28,per_egg,,2.700,,N/A,South Vietnam,caged,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"the website is updated on a daily basis
+
+"
+,2025-03-28,per_egg,,3.500,,N/A,South Vietnam,free_range,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"the website is updated on a daily basis
+
+"
+,2025-03-28,per_egg,,3.300,,market Tan Dinh in HCM,South Vietnam,caged,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"the website is updated on a daily basis
+
+"
+,2025-03-28,per_egg,,3.000,,market Tan Dinh in HCM,South Vietnam,free_range,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"the website is updated on a daily basis
+
+"
+,2025-03-28,per_egg,,2.000,,"market Van Kiep, Binh Thanh, HCM",South Vietnam,free_range,,household,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"the website is updated on a daily basis
+
+"
+,2025-03-28,per_egg,,4.000,,N/A,South Vietnam,N/A,,retailer,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"the website is updated on a daily basis
+
+"
+,2025-03-28,per_egg,,4.600,,N/A,South Vietnam,N/A,,retailer,,,https://nhachannuoi.vn/trung-ga-ta-re-hon-trung-ga-cong-nghiep/,"the website is updated on a daily basis
+
+"
+,2025-04-04,per_egg,,1.740,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-04-04,per_egg,,2.000,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-04-04,per_egg,,1.600,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-04-04,per_egg,,2.010,,N/A,N/A,free_range,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-04-04,per_egg,,2.400,,N/A,N/A,free_range,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-04-04,per_egg,,1.700,,N/A,N/A,free_range,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-05-05,per_egg,,2.400,,market in Dong Nai,South Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-05,per_egg,,1.900,,market in Dong Nai,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-05,per_egg,,2.400,,market in Can Tho,South Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-05,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-05,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,caged,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-05,per_egg,,2.100,,market in Nghe An,Central Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-05,per_egg,,2.000,,market in Ben Tre,South Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-05,per_egg,,1.900,,market in Ha Nam,North Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-05,per_egg,,2.100,,market in Ha Noi,North Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-05,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-05-05-2025-dau-tuan-khong-chenh-lech-1577535,
+,2025-05-21,per_egg,,2.000,,market in Dong bang song Cuu Long,West Vietnam,N/A,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-05-22,per_egg,,2.300,,market Thach Da in HCM,South Vietnam,caged,,household,,"Inaccurate information about fake eggs spread --> market is afraid, traders stop buying --> poultry farmers are already having difficulties and business is even worse",,"the website is updated on a daily basis
+
+"
+,2025-05-22,per_egg,,1.300,,market in Dong Nai,North Vietnam,caged,,household,,"Inaccurate information about fake eggs spread --> market is afraid, traders stop buying --> poultry farmers are already having difficulties and business is even worse",,"the website is updated on a daily basis
+
+"
+,2025-05-27,per_egg,,1.300,,Long Xuyen,South Vietnam,caged,,household,,,https://vietstock.vn/2025/05/gia-trung-ga-giam-con-1300-dongqua-nguoi-nuoi-keu-da-cam-co-het-so-do-cua-nha-va-chi-gai-118-1312569.htm,"the website is updated on a daily basis
+
+"
+,2025-05-27,per_egg,,1.400,,Long Xuyen,South Vietnam,caged,,retailer,,,https://vietstock.vn/2025/05/gia-trung-ga-giam-con-1300-dongqua-nguoi-nuoi-keu-da-cam-co-het-so-do-cua-nha-va-chi-gai-118-1312569.htm,"the website is updated on a daily basis
+
+"
+,2025-06-03,per_egg,,2.020,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-06-03,per_egg,,2.700,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-06-03,per_egg,,1.600,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-06-05,per_egg,,1.100,,market in Dong Thap,Southwest Vietnam,caged,,household,,"The rumor of ""fake eggs"" is false, helping consumers feel secure when using eggs.",https://nhachannuoi.vn/gia-trung-ga-tang-cao-nguoi-chan-nuoi-o-dong-thap-phan-khoi/,"the website is updated on a daily basis
+
+"
+,2025-06-05,per_egg,,2.300,,market in Dong Thap,Southwest Vietnam,caged,,household,,"The rumor of ""fake eggs"" is false, helping consumers feel secure when using eggs.",https://nhachannuoi.vn/gia-trung-ga-tang-cao-nguoi-chan-nuoi-o-dong-thap-phan-khoi/,"the website is updated on a daily basis
+
+"
+,2025-06-09,per_egg,,2.900,,market in Ha Noi,North Vietnam,caged,,household,,due to increased feed and transportation costs in recent times.,https://nhachannuoi.vn/nghich-ly-trung-ga-mien-bac-giam-gia-phia-nam-tang-nhu-len-dong/,"the website is updated on a daily basis
+
+"
+,2025-06-09,per_egg,,4.000,,market in Ha Noi ,North Vietnam,free_range,,household,,due to increased feed and transportation costs in recent times.,https://nhachannuoi.vn/nghich-ly-trung-ga-mien-bac-giam-gia-phia-nam-tang-nhu-len-dong/,"the website is updated on a daily basis
+
+"
+,2025-06-09,per_egg,,2.400,,N/A,North Vietnam,N/A,,retailer,,due to increased feed and transportation costs in recent times.,https://nhachannuoi.vn/nghich-ly-trung-ga-mien-bac-giam-gia-phia-nam-tang-nhu-len-dong/,"the website is updated on a daily basis
+
+"
+,2025-06-09,per_egg,,2.500,,N/A,North Vietnam,N/A,,retailer,,due to increased feed and transportation costs in recent times.,https://nhachannuoi.vn/nghich-ly-trung-ga-mien-bac-giam-gia-phia-nam-tang-nhu-len-dong/,"the website is updated on a daily basis
+
+"
+,2025-06-09,per_egg,,4.200,,market in HCM,South Vietnam,duck,,household,,due to increased feed and transportation costs in recent times.,https://nhachannuoi.vn/nghich-ly-trung-ga-mien-bac-giam-gia-phia-nam-tang-nhu-len-dong/,"the website is updated on a daily basis
+
+"
+,2025-06-09,per_egg, ,3.000,,market in HCM,South Vietnam,caged,,household,,due to increased feed and transportation costs in recent times.,https://nhachannuoi.vn/nghich-ly-trung-ga-mien-bac-giam-gia-phia-nam-tang-nhu-len-dong/,"the website is updated on a daily basis
+
+"
+,2025-06-20,per_egg,,2.400,,N/A,N/A,N/A,,household,,"Egg prices are surging because African swine fever reduced pork consumption (boosting egg demand), prolonged low prices (6-7 months) forced small farmers to release flocks (cutting supply), and exports to Cambodia, Laos, and the Middle East have risen.",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-06-20,per_egg,,2.700,,N/A,N/A,N/A,,household,,"Egg prices are surging because African swine fever reduced pork consumption (boosting egg demand), prolonged low prices (6-7 months) forced small farmers to release flocks (cutting supply), and exports to Cambodia, Laos, and the Middle East have risen.",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-06-25,per_egg,,1.300,,N/A,North Vietnam,caged,,retailer,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-06-25,per_egg,,1.400,,N/A,North Vietnam,caged,,retailer,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-07-02,per_egg,,2.650,,N/A,N/A,duck  ,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-07-02,per_egg,,3.000,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-07-02,per_egg,,2.100,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-07-02,per_egg,,1.900,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-07-02,per_egg,,2.400,,N/A,N/A,caged,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-07-02,per_egg,,2.000,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-07-02,per_egg,,4.000,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-07-10,per_egg,,2.800,,N/A,N/A,N/A,,household,," Information about ""fake eggs"" was cleared.",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-07-10,per_egg,,2.900,,N/A,N/A,N/A,,household,," Information about ""fake eggs"" was cleared.",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-07-10,per_egg,,2.300,,N/A,North Vietnam,caged,,retailer,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-07-10,per_egg,,2.700,,N/A,North Vietnam,caged,,retailer,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,2.400,,market in Dong Nai,South Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,1.900,,market in Dong Nai,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,2.400,,market in Can Tho,West Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,caged,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,2.100,,market in Nghe An,Central Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,2.000,,market in Ben Tre,West Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,1.900,,market in Ha Nam,North Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,2.100,,market in Ha Noi,North Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-24,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://www.bachhoaxanh.com/kinh-nghiem-hay/gia-gia-cam-hom-nay-24-07-2025-gia-ban-binh-on-1580699,"the website is updated on a daily basis
+
+"
+,2025-07-25,per_egg,,3.000,,market in North Vietnam,North Vietnam,caged,,household,,"Egg prices are surging due to African swine fever reducing pork consumption (boosting egg demand), prolonged low prices (6-7 months) forcing small farmers to release flocks (cutting supply), rising exports to Laos and the Middle East, clarified fake egg rumors restoring consumer confidence (further increasing demand), and Thailand-Cambodia conflict halting Thai egg exports to Cambodia (boosting Vietnam's exports there).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-07-25,per_egg,,3.100,,market in North Vietnam,North Vietnam,caged,,household,,"Egg prices are surging due to African swine fever reducing pork consumption (boosting egg demand), prolonged low prices (6-7 months) forcing small farmers to release flocks (cutting supply), rising exports to Laos and the Middle East, clarified fake egg rumors restoring consumer confidence (further increasing demand), and Thailand-Cambodia conflict halting Thai egg exports to Cambodia (boosting Vietnam's exports there).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-07,per_egg,,3.500,,N/A,North Vietnam,caged,,retailer,,,https://nhachannuoi.vn/gia-trung-ga-hoi-phuc-nguoi-chan-nuoi-co-dong-luc-san-xuat/,"the website is updated on a daily basis
+
+"
+,2025-08-07,per_egg,,3.500,,N/A,Central Vietnam,N/A,,retailer,,,https://nhachannuoi.vn/gia-trung-ga-hoi-phuc-nguoi-chan-nuoi-co-dong-luc-san-xuat/,"the website is updated on a daily basis
+
+"
+,2025-08-08,per_egg,,3.800,,market in Ha Noi,North Vietnam,free_range,,household,,"This year's high egg prices are due to other reasons, such as stormy weather, sudden heat, many chicken farms being flooded or chickens dying due to heat, creating a decrease in supply.
+Due to the outbreak of African swine fever, people are afraid of the disease so they reduce their pork consumption and switch to eating eggs.",https://thanhnien.vn/trung-ga-bat-ngo-tang-gia-cao-ky-luc-18525080720000368.htm,"the website is updated on a daily basis
+
+"
+,2025-08-08,per_egg,,5.500,,market in Ha Noi,North Vietnam,free_range,,household,,"This year's high egg prices are due to other reasons, such as stormy weather, sudden heat, many chicken farms being flooded or chickens dying due to heat, creating a decrease in supply.
+Due to the outbreak of African swine fever, people are afraid of the disease so they reduce their pork consumption and switch to eating eggs.",https://thanhnien.vn/trung-ga-bat-ngo-tang-gia-cao-ky-luc-18525080720000368.htm,"the website is updated on a daily basis
+
+"
+,2025-08-08,per_egg,,2.400,,N/A,North Vietnam,caged,,retailer,,,,"the website is updated on a daily basis
+
+"
+,2025-08-08,per_egg,,3.000,,N/A,North Vietnam,free_range,,retailer,,,,"the website is updated on a daily basis
+
+"
+,2025-08-08,per_egg,,3.000,,market in Lam Dong ,Central Vietnam,N/A,,household,,"Egg prices are surging because prolonged low prices over the past 2 years forced many farms to reduce or stop raising flocks (sharply cutting supply), while African swine fever reduced pork consumption, shifting demand to poultry, eggs, and seafood (boosting egg demand).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-08,per_egg,,1.700,,market in Lam Dong ,Central Vietnam,N/A,,household,,"Egg prices are surging because prolonged low prices over the past 2 years forced many farms to reduce or stop raising flocks (sharply cutting supply), while African swine fever reduced pork consumption, shifting demand to poultry, eggs, and seafood (boosting egg demand).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-08,per_egg,,2.600,,market in Lam Dong ,Central Vietnam,N/A,,retailer,,"Egg prices are surging due to African swine fever reducing pork consumption (boosting egg demand), prolonged low prices (6-7 months) forcing small farmers to release flocks (cutting supply), rising exports to Laos and the Middle East, clarified fake egg rumors restoring consumer confidence (further increasing demand), and Thailand-Cambodia conflict halting Thai egg exports to Cambodia (boosting Vietnam's exports there).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-08,per_egg,,2.700,,market in Lam Dong ,Central Vietnam,N/A,,retailer,,"Egg prices are surging because African swine fever reduced pork consumption (boosting egg demand), prolonged low prices (6-7 months) forced small farmers to release flocks (cutting supply), and exports to Cambodia, Laos, and the Middle East have risen.",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-08,per_egg,,1.900,,market in North Vietnam,North Vietnam,caged,,retailer,,"Egg prices are surging because African swine fever reduced pork consumption (boosting egg demand), prolonged low prices (6-7 months) forced small farmers to release flocks (cutting supply), and exports to Cambodia, Laos, and the Middle East have risen.",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-09,per_egg,,2.500,,market in South Vietnam,South Vietnam,caged,,household,,"Egg prices are surging due to African swine fever reducing pork consumption (boosting egg demand), prolonged low prices (6-7 months) forcing small farmers to release flocks (cutting supply), rising exports to Laos and the Middle East, clarified fake egg rumors restoring consumer confidence (further increasing demand), and Thailand-Cambodia conflict halting Thai egg exports to Cambodia (boosting Vietnam's exports there).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-09,per_egg,,2.700,,market in South Vietnam,South Vietnam,caged,,household,,"Egg prices are surging due to African swine fever reducing pork consumption (boosting egg demand), prolonged low prices (6-7 months) forcing small farmers to release flocks (cutting supply), rising exports to Laos and the Middle East, clarified fake egg rumors restoring consumer confidence (further increasing demand), and Thailand-Cambodia conflict halting Thai egg exports to Cambodia (boosting Vietnam's exports there).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-10,per_egg,,3.000,,market Ba Chieu,South Vietnam,caged,,household,,,https://danviet.vn/gia-trung-ga-khong-con-re-sieu-thi-cung-ngung-khuyen-mai-d1354369.html,"the website is updated on a daily basis
+
+"
+,2025-08-10,per_egg,,3.000,,market in HCM,South Vietnam,caged,,household,,,https://danviet.vn/gia-trung-ga-khong-con-re-sieu-thi-cung-ngung-khuyen-mai-d1354369.html,"the website is updated on a daily basis
+
+"
+,2025-08-10,per_egg,,3.200,,market in HCM,South Vietnam,caged,,household,,,https://danviet.vn/gia-trung-ga-khong-con-re-sieu-thi-cung-ngung-khuyen-mai-d1354369.html,"the website is updated on a daily basis
+
+"
+,2025-08-10,per_egg,,2.000,,market in HCM,South Vietnam,caged,,household,,,https://danviet.vn/gia-trung-ga-khong-con-re-sieu-thi-cung-ngung-khuyen-mai-d1354369.html,"the website is updated on a daily basis
+
+"
+,2025-08-10,per_egg,,5.000,,market Ba Chieu,South Vietnam,caged,,household,,,https://danviet.vn/gia-trung-ga-khong-con-re-sieu-thi-cung-ngung-khuyen-mai-d1354369.html,"the website is updated on a daily basis
+
+"
+,2025-08-10,per_egg,,3.350,,market SATRA,South Vietnam,caged,,household,,,https://danviet.vn/gia-trung-ga-khong-con-re-sieu-thi-cung-ngung-khuyen-mai-d1354369.html,"the website is updated on a daily basis
+
+"
+,2025-08-10,per_egg,,2.300,,market in North Vietnam,North Vietnam,caged,,household,,"Egg prices are surging due to African swine fever reducing pork consumption (boosting egg demand), prolonged low prices (6-7 months) forcing small farmers to release flocks (cutting supply), rising exports to Laos and the Middle East, clarified fake egg rumors restoring consumer confidence (further increasing demand), and Thailand-Cambodia conflict halting Thai egg exports to Cambodia (boosting Vietnam's exports there).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-10,per_egg,,2.500,,market in North Vietnam,North Vietnam,caged,,household,,"Egg prices are surging due to African swine fever reducing pork consumption (boosting egg demand), prolonged low prices (6-7 months) forcing small farmers to release flocks (cutting supply), rising exports to Laos and the Middle East, clarified fake egg rumors restoring consumer confidence (further increasing demand), and Thailand-Cambodia conflict halting Thai egg exports to Cambodia (boosting Vietnam's exports there).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,3.300,,market in Ho Chi Minh ,South Vietnam,caged,,household,,"The egg prices in this period had been considered the highest since the Covid-19.
+Autumn Festival -> eggs used to make cakes
+
+Prolonged low egg prices (6–7 months) forced small farms to downsize, reducing supply.
+
+African Swine Fever makes people choose other food source instead (poultry meat/eggs)",https://nhachannuoi.vn/dong-nam-bo-gia-trung-ga-tang-cao/,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,3.350,,market in Ho Chi Minh ,South Vietnam,free_range,,household,,"The egg prices in this period had been considered the highest since the Covid-19.
+Autumn Festival -> eggs used to make cakes
+
+Prolonged low egg prices (6–7 months) forced small farms to downsize, reducing supply.
+
+African Swine Fever makes people choose other food source instead (poultry meat/eggs)",https://nhachannuoi.vn/dong-nam-bo-gia-trung-ga-tang-cao/,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,3.000,,Southern Hanoi wholesale market,North Vietnam,caged,,household,,"The reason for the sharp increase in egg prices is because this is the peak season for making moon cakes, so businesses buy large quantities of poultry eggs. Moreover, last year and during the first few months of this year, egg prices hit rock bottom, farmers suffered heavy losses, so there were farmers destroying their flocks and hanging up their cages. Therefore, the supply of eggs is scarce, pushing prices up.",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,5.000,,Hanoi wholesale market,North Vietnam,free_range,,household,,"The reason for the sharp increase in egg prices is because this is the peak season for making moon cakes, so businesses buy large quantities of poultry eggs. Moreover, last year and during the first few months of this year, egg prices hit rock bottom, farmers suffered heavy losses, so there were farmers destroying their flocks and hanging up their cages. Therefore, the supply of eggs is scarce, pushing prices up.",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,2.700,,market in Hai Phong,North Vietnam,caged,,household,,"The reason for the sharp increase in egg prices is because this is the peak season for making moon cakes, so businesses buy large quantities of poultry eggs. Moreover, last year and during the first few months of this year, egg prices hit rock bottom, farmers suffered heavy losses, so there were farmers destroying their flocks and hanging up their cages. Therefore, the supply of eggs is scarce, pushing prices up.",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,2.700,,N/A,South Vietnam,N/A,,retailer,,"The demand for making moon cakes is increasing, African swine fever is breaking out",https://nhachannuoi.vn/dong-nam-bo-gia-trung-ga-tang-cao/,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,3.300,,market in HCM,South Vietnam,caged,,household,,"The demand for making moon cakes is increasing, African swine fever is breaking out",https://nhachannuoi.vn/dong-nam-bo-gia-trung-ga-tang-cao/,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,4.000,,market in HCM,South Vietnam,N/A,,household,,"The demand for making moon cakes is increasing, African swine fever is breaking out",https://nhachannuoi.vn/dong-nam-bo-gia-trung-ga-tang-cao/,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,5.500,,Winmart,South Vietnam,N/A,,household,,"The demand for making moon cakes is increasing, African swine fever is breaking out",https://nhachannuoi.vn/dong-nam-bo-gia-trung-ga-tang-cao/,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,3.750,,Kingfood Mart,South Vietnam,caged,,household,,,https://danviet.vn/gia-trung-ga-khong-con-re-sieu-thi-cung-ngung-khuyen-mai-d1354369.html,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,3.000,,market in Ha Noi,North Vietnam,caged,,household,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,3.500,,market in Ha Noi,North Vietnam,caged,,household,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,3.300,,market in Ha Noi,North Vietnam,duck,,household,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,4.500,,market in Ha Noi,North Vietnam,free_range,,household,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,5.000,,market in Ha Noi,North Vietnam,free_range,,household,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,2.300,,market in Ha Noi,North Vietnam,caged,,household,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,2.600,,N/A,North Vietnam,caged,,retailer,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,3.500,,N/A,North Vietnam,caged,,retailer,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,2.000,,N/A,North Vietnam,caged,,retailer,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-11,per_egg,,2.800,,N/A,North Vietnam,caged,,retailer,,"The outbreak of African swine fever has led to a decrease in pork consumption among consumers. Alternative foods such as poultry eggs and meat have become popular choices, contributing to a surge in egg prices.
+The supply has decreased due to a period of low prices in 2024, forcing many farms to downsize their flocks or temporarily suspend production. Meanwhile, poultry egg exports to Cambodia, Laos, and the Middle East have rebounded thanks to more competitive",https://vietnamnet.vn/gia-trung-tang-gap-doi-chi-trong-1-thang-nong-dan-lai-tien-trieu-moi-ngay-2430932.html?referrer=grok.com,"the website is updated on a daily basis
+
+"
+,2025-08-12,per_egg,,1.750,,N/A,South Vietnam,N/A,,retailer,,,https://danviet.vn/gia-trung-ga-khong-con-re-sieu-thi-cung-ngung-khuyen-mai-d1354369.html,"the website is updated on a daily basis
+
+"
+,2025-08-14,per_egg,,3.000,,N/A,N/A,N/A,,household,,,https://phunutoday.vn/trung-ga-dang-tu-re-bong-tang-vot-chuyen-gia-noi-gi-vi-sao-lai-nhu-vay-d466986.html,"the website is updated on a daily basis
+
+"
+,2025-08-14,per_egg,,4.000,,N/A,N/A,N/A,,retailer,,,https://phunutoday.vn/trung-ga-dang-tu-re-bong-tang-vot-chuyen-gia-noi-gi-vi-sao-lai-nhu-vay-d466986.html,"the website is updated on a daily basis
+
+"
+,2025-08-14,per_egg,,6.000,,N/A,N/A,N/A,,retailer,,,https://phunutoday.vn/trung-ga-dang-tu-re-bong-tang-vot-chuyen-gia-noi-gi-vi-sao-lai-nhu-vay-d466986.html,"the website is updated on a daily basis
+
+"
+,2025-08-14,per_egg,,5.000,,N/A,N/A,N/A,,retailer,,,https://phunutoday.vn/trung-ga-dang-tu-re-bong-tang-vot-chuyen-gia-noi-gi-vi-sao-lai-nhu-vay-d466986.html,"the website is updated on a daily basis
+
+"
+,2025-08-18,per_egg,,1.800,,market in Lam Dong ,Central Vietnam,N/A,,household,,"Egg prices are surging because prolonged low prices over the past 2 years forced many farms to reduce or stop raising flocks (sharply cutting supply), while African swine fever reduced pork consumption, shifting demand to poultry, eggs, and seafood (boosting egg demand).",https://danviet.vn/dien-bien-gia-trung-gia-cam-tang-cao-nhieu-doanh-nghiep-dang-xuat-khau-trung-sang-campuchia-d1353967.html,"the website is updated on a daily basis
+
+"
+,2025-10-24,per_egg,,2.500,,market in Đông Nam Bộ,Southeastern region,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-ga-bat-ngo-tang-vot-tien-sat-moc-4-000-dong-trung/,"the website is updated on a daily basis
+
+"
+,2025-10-24,per_egg,,2.900,,market in Đông Nam Bộ,Southeastern region,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-ga-bat-ngo-tang-vot-tien-sat-moc-4-000-dong-trung/,"the website is updated on a daily basis
+
+"
+,2025-10-24,per_egg,,1.600,,market in Đông Nam Bộ,Southeastern region,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-ga-bat-ngo-tang-vot-tien-sat-moc-4-000-dong-trung/,"the website is updated on a daily basis
+
+"
+,2025-10-24,per_egg,,1.800,,market in Đông Nam Bộ,Southeastern region,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-ga-bat-ngo-tang-vot-tien-sat-moc-4-000-dong-trung/,"the website is updated on a daily basis
+
+"
+,2025-10-24,per_egg,,3.000,,market in Đông Nam Bộ,Southeastern region,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-ga-bat-ngo-tang-vot-tien-sat-moc-4-000-dong-trung/,"the website is updated on a daily basis
+
+"
+,2025-10-24,per_egg,,3.500,,market in Đông Nam Bộ,Southeastern region,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-ga-bat-ngo-tang-vot-tien-sat-moc-4-000-dong-trung/,"the website is updated on a daily basis
+
+"
+,2025-10-24,per_egg,,3.000,,market in Đông Nam Bộ,Southeastern region,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-ga-bat-ngo-tang-vot-tien-sat-moc-4-000-dong-trung/,"the website is updated on a daily basis
+
+"
+,2025-10-25,per_egg,,3.500,,market in Ho Chi Minh ,South Vietnam,caged,,household,,"Demand increases, supply decreases --> egg prices have skyrocketed in the past month + 
+complicated developments of African swine fever have caused consumers to reduce pork 
+consumption --> contributing to the increase in egg prices.",https://www.sggp.org.vn/gia-trung-ga-thit-ga-deu-tang-post819896.html,"the website is updated on a daily basis
+
+"
+,2025-10-25,per_egg,,3.800,,market in Ho Chi Minh ,South Vietnam,free_range,,household,,"Demand increases, supply decreases --> egg prices have skyrocketed in the past month + 
+complicated developments of African swine fever have caused consumers to reduce pork 
+consumption --> contributing to the increase in egg prices.",https://www.sggp.org.vn/gia-trung-ga-thit-ga-deu-tang-post819896.html,"the website is updated on a daily basis
+
+"
+,2025-10-27,per_egg,,1.600,,market in Dong Nam Bo,South Vietnam,caged,,household,,,https://nguoichannuoi.vn/gia-trung-ga-bat-ngo-tang-vot-tien-sat-moc-4-000-dong-trung/,"the website is updated on a daily basis
+
+"
+,2025-10-27,per_egg,,3.800,,market in Dong Nam Bo,South Vietnam,caged,,household,,,https://nguoichannuoi.vn/gia-trung-ga-bat-ngo-tang-vot-tien-sat-moc-4-000-dong-trung/,"the website is updated on a daily basis
+
+"
+,2025-10-27,per_egg,,2.500,,N/A,South Vietnam,N/A,,retailer,,,https://nhachannuoi.vn/gia-trung-ga-thit-ga-deu-tang/,"the website is updated on a daily basis
+
+"
+,2025-10-27,per_egg,,3.800,,market in HCM,South Vietnam,caged,,household,,,https://nhachannuoi.vn/gia-trung-ga-thit-ga-deu-tang/,"the website is updated on a daily basis
+
+"
+,2025-10-27,per_egg,,3.000,,market in HCM,South Vietnam,caged,,household,,,https://nhachannuoi.vn/gia-trung-ga-thit-ga-deu-tang/,"the website is updated on a daily basis
+
+"
+,2025-10-28,per_egg,,2.220,,N/A,North Vietnam,N/A,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-28-10-2025/,"the website is updated on a daily basis
+
+"
+,2025-10-28,per_egg,,2.230,,N/A,Central Vietnam,N/A,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-28-10-2025/,"the website is updated on a daily basis
+
+"
+,2025-10-28,per_egg,,2.070,,N/A,South Vietnam,N/A,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-28-10-2025/,"the website is updated on a daily basis
+
+"
+,2025-10-28,per_egg,,2.600,,N/A,North Vietnam,duck,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-28-10-2025/,"the website is updated on a daily basis
+
+"
+,2025-10-28,per_egg,,2.680,,N/A,Central Vietnam,duck,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-28-10-2025/,"the website is updated on a daily basis
+
+"
+,2025-10-28,per_egg,,2.430,,N/A,South Vietnam,duck,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-28-10-2025/,"the website is updated on a daily basis
+
+"
+,2025-11-18,per_egg,,2.620,,N/A,North Vietnam,N/A,,retailer,,, https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-18-11-2025/,"the website is updated on a daily basis
+
+"
+,2025-11-18,per_egg,,2.500,,N/A,Central Vietnam,N/A,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-18-11-2025/,"the website is updated on a daily basis
+
+"
+,2025-11-18,per_egg,,2.370,,N/A,South Vietnam,N/A,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-18-11-2025/,"the website is updated on a daily basis
+
+"
+,2025-11-18,per_egg,,2.700,,N/A,North Vietnam,duck,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-18-11-2025/,"the website is updated on a daily basis
+
+"
+,2025-11-18,per_egg,,2.710,,N/A,Central Vietnam,duck,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-18-11-2025/,"the website is updated on a daily basis
+
+"
+,2025-11-18,per_egg,,2.540,,N/A,South Vietnam,duck,,retailer,,,https://nhachannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-18-11-2025/,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,3.600,,market in Ha Noi,North Vietnam,caged,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html ,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,4.000,,market in Ha Noi,North Vietnam,free_range,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,4.500,,hoang liet (Ha Noi),North Vietnam,free_range,,retailer,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,3.500,,market in Ha Noi,North Vietnam,caged,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,4.800,,market in Ha Noi,North Vietnam,N/A,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,3.800,,market in Ha Noi,North Vietnam,N/A,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,4.000,,market in Ha Noi,North Vietnam,free_range,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,4.500,,market in Ha Noi,North Vietnam,free_range,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,4.800,,market in Ha Noi,North Vietnam,free_range,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,5.000,,market in Ha Noi,North Vietnam,free_range,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-22,per_egg,,4.000,,market in Ha Noi,North Vietnam,duck,,household,,,https://vietnamnet.vn/bat-chap-gia-tang-manh-ba-noi-tro-van-chon-mua-trung-ga-vi-mot-ly-do-2465181.html,"the website is updated on a daily basis
+
+"
+,2025-11-23,per_egg,,3.500,,market in Ho Chi Minh ,South Vietnam,caged,,household,Flood,"Floods in many provinces have damaged barns, forcing some households to sell laying hens for meat to reduce risks. The association said the prolonged reduction in chicken flocks, combined with transportation disruptions caused by storms, were the direct cause of the increase in egg prices since October.",https://vnexpress.net/gia-trung-ga-tang-manh-4982720.html,"the website is updated on a daily basis
+
+"
+,2025-11-23,per_egg,,5.500,,supermarket in Ho Chi Minh,South Vietnam,free_range,,household,Flood,"Floods in many provinces have damaged barns, forcing some households to sell laying hens for meat to reduce risks. The association said the prolonged reduction in chicken flocks, combined with transportation disruptions caused by storms, were the direct cause of the increase in egg prices since October.",https://vnexpress.net/gia-trung-ga-tang-manh-4982720.html,"the website is updated on a daily basis
+
+"
+,2025-11-23,per_egg,,4.000,,Tan Thoi Hiep in HCM,South Vietnam,caged,,household,,compensate for shipping costs and loss.,https://vnexpress.net/gia-trung-ga-tang-manh-4982720.html,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.700,,market in Ha Noi,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.700,,market in Hung Yen,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.700,,market in Ninh Binh,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.700,,market in Phu Tho,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.700,,market in Thai Nguyen,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.700,,market in Tuyen Quang,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.100,,market in Ha Noi,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.900,,market in Hung Yen,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.900,,market in Ha Nam,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.100,,market in Nam Dinh,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.600,,market in Nam Dinh,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.800,,market in Thai Binh,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.800,,market in Tuyen Quang,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.100,,market in Vinh Phuc,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.700,,market in Vinh Phuc,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.690,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.900,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.600,,N/A,N/A,duck,,household,,,,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.900,,market in Thua Thien Hue,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.600,,market in Thanh Hoa,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.100,,market in Thanh Hoa,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.900,,market in Quang Ngai ,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.900,,market in Quang Nam,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.700,,market in Quang Binh,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.100,,market in Nghe An,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.700,,market in Lam Dong ,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.000,,market in Hau Giang,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.400,,market in Dong Nai,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.900,,market in Dong Nai,South Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.400,,market in Can Tho,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.000,,market in Ben Tre,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.100,,market in Vinh Phuc,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.700,,market in Vinh Phuc,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.800,,market in Tuyen Quang,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.800,,market in Thai Binh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.100,,market in Nam Dinh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.600,,market in Nam Dinh,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.900,,market in Hung Yen,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.100,,market in Ha Noi,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,1.900,,market in Ha Nam,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.900,,market in Ha Noi,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.900,,market in Phu Tho,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.600,,market in An Giang,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.700,,market in Dong Nai,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-25,per_egg,,2.800,,market in Tay Ninh,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,2.900,,Winmart,Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,5.760,,Winmart,Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,3.200,,Bách hóa xanh,Vietnam,caged,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,3.600,,Bách hóa xanh ,Vietnam,duck,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,2.700,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,4.700,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,3.550,,market Thuc pham nhanh in HCM ,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,4.600,,market Thuc pham nhanh in HCM ,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,5.600,,market Thuc pham nhanh in HCM ,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-11-27,per_egg,,3.850,,Mega market,Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-11-28,per_egg,,4.800,,Mega market,Vietnam,N/A,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,5.250,,Winmart in HCM,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,2.990,,Winmart in HCM,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,5.650,,Winmart in HCM,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,6.300,,Winmart in HCM,South Vietnam,free_range,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,2.300,,MM Mega Market An Phu in HCM,South Vietnam,duck,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,3.890,,MM Mega Market An Phu in HCM,South Vietnam,duck,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,3.000,,MM Mega Market An Phu in HCM,South Vietnam,caged,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,3.850,,MM Mega Market An Phu in HCM,South Vietnam,caged,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,5.700,,MM Mega Market An Phu in HCM,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-01,per_egg,,6.800,,MM Mega Market An Phu in HCM,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-02,per_egg,,4.700,,Aeon HCM,South Vietnam,caged,,household,,,https://aeoneshop.com/products/search/tr%E1%BB%A9ng%20,"the website is updated on a daily basis
+
+"
+,2025-12-02,per_egg,,3.400,,Bach Hoa Xanh,South Vietnam,duck  ,,household,,,https://www.bachhoaxanh.com/trung,"the website is updated on a daily basis
+
+"
+,2025-12-02,per_egg,,3.400,,Bach Hoa Xanh,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/trung,"the website is updated on a daily basis
+
+"
+,2025-12-02,per_egg,,3.200,,Bach Hoa Xanh,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/trung,"the website is updated on a daily basis
+
+"
+,2025-12-02,per_egg,,4.500,,Bach Hoa Xanh,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/trung,"the website is updated on a daily basis
+
+"
+,2025-12-02,per_egg,,3.800,,Bach Hoa Xanh,South Vietnam,duck,,household,,,https://www.bachhoaxanh.com/trung,"the website is updated on a daily basis
+
+"
+,2025-12-02,per_egg,,3.000,,Kamereo,South Vietnam,caged,,household,,,https://kamereo.vn/blog/vi/gia-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2025-12-02,per_egg,,2.500,,Kamereo,South Vietnam,caged,,household,,,https://kamereo.vn/blog/vi/gia-trung-ga-hom-nay/,"the website is updated on a daily basis
+
+"
+,2025-12-03,per_egg,,3.000,,Aeon HCM,South Vietnam,duck,,household,,,https://aeoneshop.com/products/search/tr%E1%BB%A9ng%20,"the website is updated on a daily basis
+
+"
+,2025-12-03,per_egg,,2.900,,Winmart in HCM,South Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-03,per_egg,,3.600,,Winmart in HCM,South Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-03,per_egg,,5.700,,Winmart in HCM,South Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.900,,Aeon HCM,South Vietnam,duck,,household,,,https://aeoneshop.com/products/search/tr%E1%BB%A9ng%20,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.900,,market Ha Nam in Ha Noi,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.100,,market in Ha Noi,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.900,,market in Hung Yen,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.100,,market in Nam Dinh,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.600,,market in Nam Dinh,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.800,,market in Thai Binh,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.800,,market in Tuyen Quang,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.100,,market in Vinh Phuc,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.700,,market in Vinh Phuc,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.000,,market in Ben Tre,South Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.400,,market in Can Tho,South Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.400,,market in Dong Nai,South Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.900,,market in Dong Nai,South Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.000,,market in Hau Giang,South Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.700,,market in Lam Dong ,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.100,,market in Nghe An,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.900,,market in Thua Thien Hue,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.900,,market in Quang Nam,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.700,,market in Quang Binh,Central Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.700,,market in Quang Ngai,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.100,,market in Thanh Hoa,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,1.600,,market in Thanh Hoa,Central Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.900,,market in Hung Yen,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.900,,market in Lao Cai,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.600,,market in Can Tho,South Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.700,,market in Ho Chi Minh ,South Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,2.800,,market in Tay Ninh,South Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,3.000,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,4.900,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,4.700,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,3.200,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,3.000,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,4.200,,Mega market,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,5.500,,Mega market,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,4.500,,"the website is updated on a daily basis
+
+Average price for 6 eggs",South Vietnam,N/A,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,3.400,,Bach Hoa Xanh,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,3.600,,Thuc pham nhanh,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng+&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,3.500,,Thuc pham nhanh,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng+&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,4.600,,Thuc pham nhanh,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng+&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,3.900,,Thuc pham nhanh,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng+&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,3.800,,Thuc pham nhanh,South Vietnam,caged,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng+&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-04,per_egg,,4.300,,Thuc pham nhanh,South Vietnam,caged,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng+&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.900,,market in Ha Noi,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.600,,market in An Giang,South Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.700,,market in Ho Chi Minh ,South Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.800,,market in Tay Ninh,South Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.700,,market in Dak Lak,Central Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.800,,market in Quang Ngai,Central Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.900,,market in Nghe An,Central Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.600,,market in Lam Dong ,Central Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.700,,market in Dong Nai,South Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.900,,market in Ninh Binh,North Vietnam,duck,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.900,,market in Ha Nam,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.100,,market in Ha Noi,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.900,,market in Hung Yen,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.100,,market in Nam Dinh,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.600,,market in Nam Dinh,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.800,,market in Thai Binh,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.800,,market in Tuyen Quang,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.100,,market in Vinh Phuc,North Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.700,,market in Vinh Phuc,North Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.000,,market in Ben Tre,South Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.400,,market in Can Tho,South Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.400,,market in Dong Nai,South Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.900,,market in Dong Nai,South Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.000,,market in Hau Giang,South Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.700,,market in Lam Dong ,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.100,,market in Nghe An,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.700,,market in Quang Binh,Central Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.900,,market in Quang Nam,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.900,,market in Quang Ngai,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,2.100,,market in Thanh Hoa,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.600,,market in Thanh Hoa,Central Vietnam,caged,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,1.900,,market in Thua Thien Hue,Central Vietnam,free_range,,household,,,https://feedin.me/data/gia-ga-vit-gia-cam-viet-nam,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,4.000,,market in HCM,South Vietnam,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,3.400,,market in HCM,South Vietnam,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,3.800,,market in HCM,South Vietnam,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,3.400,,market in Ho Hoc Lam,South Vietnam,caged,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,3.600,,market in Ho Hoc Lam,South Vietnam,caged,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,3.600,,market in Ho Hoc Lam,South Vietnam,duck,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,3.800,,market in Ho Hoc Lam,South Vietnam,duck,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,3.800,,market V.Food,South Vietnam,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,4.400,,market V.Food,South Vietnam,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,4.500,,market V.Food,South Vietnam,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-08,per_egg,,3.500,,market V.Food,South Vietnam,N/A,,household,,,https://nguoichannuoi.vn/gia-trung-tang-manh-thit-heo-nhap-nhom/,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,3.850,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,5.700,,Mega market,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,5.400,,"the website is updated on a daily basis
+
+Average price for 6 eggs",South Vietnam,N/A,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,5.000,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,4.200,,"the website is updated on a daily basis
+
+Average price for 6 eggs",South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,3.100,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,4.900,,Aeon HCM,South Vietnam,free_range,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,6.500,,Aeon HCM,South Vietnam,duck,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,3.400,,Bach Hoa Xanh,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,3.400,,Bach Hoa Xanh,South Vietnam,duck,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,3.200,,Bach Hoa Xanh,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,3.800,,Bach Hoa Xanh,South Vietnam,duck,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,4.700,,Winmart HCM,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,5.300,,Winmart HCM,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,3.400,,Winmart HCM,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,5.600,,Winmart HCM,South Vietnam,free_range,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,5.900,,Winmart HCM,South Vietnam,free_range,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-09,per_egg,,5.700,,Winmart HCM,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,7.800,,Winmart,South Vietnam,free_range,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,3.700,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,4.700,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,3.450,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,5.350,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,5.650,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,5.940,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,4.500,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,6.010,,Winmart,South Vietnam,free_range,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,6.500,,Winmart,South Vietnam,free_range,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,5.700,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,6.300,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,5.900,,Winmart,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,5.500,,Winmart,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,3.290,,Mega market,South Vietnam,caged,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,3.200,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,3.000,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,3.460,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,3.850,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-12,per_egg,,4.200,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.900,,market in Ha Nam,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.100,,market in Ha Noi ,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.900,,market in Hung Yen,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.100,,market in Nam Dinh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.600,,market in Nam Dinh,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.800,,market in Thai Binh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.800,,market in Tuyen Quang,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.100,,market in Vinh Phuc,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.700,,market in Vinh Phuc,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.000,,market in Ben Tre,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.400,,market in Can Tho,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.400,,market in Dong Nai,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.900,,North Vietnam,South Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.000,,market in Hau Giang,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.700,,market in Lam Dong ,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.100,,market in Nghe An,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.700,,market in Quang Binh,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.900,,market in Quang Nam,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.900,,market in Quang Ngai,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.100,,market in Thanh Hoa,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.600,,market in Thanh Hoa,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,1.900,,market in Thua Thien Hue,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.800,,market in Quang Trị,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.600,,market in Can Tho,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.700,,market in Dong Thap,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.800,,market in Tay Ninh,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.900,,market in Gia Lai,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.600,,market in Vinh Long,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.700,,market in Ho Chi Minh ,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.900,,market in Hung Yen,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.900,,market in Ninh Binh,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.900,,market in Phu Tho,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,2.800,,market in Da Nang,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,3.000,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,3.850,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,4.200,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,5.400,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-14,per_egg,,5.700,,Mega market,South Vietnam,caged,,household,,,https://online.mmvietnam.com/category/trung-ga.html,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.600,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.700,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.650,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.550,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.567,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.700,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,4.650,,Thuc pham nhanh in HCM,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,4.400,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.600,,Kamereo in Binh Duong,North Vietnam,N/A,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.450,,Kamereo in Binh Duong,North Vietnam,N/A,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.500,,Kamereo in Binh Duong,North Vietnam,N/A,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.400,,Kamereo in Binh Duong,North Vietnam,N/A,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.550,,Kamereo in Binh Duong,North Vietnam,free_range,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.650,,Kamereo in Binh Duong,North Vietnam,free_range,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.500,,market in Ho Chi Minh,South Vietnam,free_range,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.700,,market in Ho Chi Minh,South Vietnam,free_range,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,4.500,,market in Ho Chi Minh,South Vietnam,N/A,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.400,,market in Ho Chi Minh,South Vietnam,N/A,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.400,,market in Ho Chi Minh,South Vietnam,N/A,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,4.000,,market in Ho Chi Minh,South Vietnam,N/A,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.800,,market in Ho Chi Minh,South Vietnam,N/A,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.600,,market in Ho Chi Minh,South Vietnam,duck,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.800,,market in Ho Chi Minh,South Vietnam,duck,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,4.500,,market in Ho Chi Minh,South Vietnam,N/A,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.890,,market in V.Food,South Vietnam,duck,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,4.400,,market in V.Food,South Vietnam,duck,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,4.570,,market in V.Food,South Vietnam,N/A,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.500,,market in V.Food,South Vietnam,N/A,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-16,per_egg,,3.600,,market in V.Food,South Vietnam,N/A,,household,,Reduced flock sizes due to damage from floods have caused egg prices to surge.,https://nguoichannuoi.vn/gia-trung-thit-ot-bat-ngo-tang-manh-do-dau/,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.000,,market in Ben Tre,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.400,,market in Can Tho,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.400,,market in Dong Nai,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.900,,market in Dong Nai,South Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.000,,market in Hau Giang,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.000,,market in Binh Dinh,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.000,,market in Binh Dinh,South Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.700,,market in Lam Dong ,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.100,,market in Nghe An,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.900,,market in Ha Nam,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.100,,market in Ha Noi,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.900,,market in Hung Yen,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.100,,market in Nam Dinh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.600,,market in Nam Dinh,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.800,,market in Thai Binh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.800,,market in Tuyen Quang,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.100,,market in Vinh Phuc,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.700,,market in Vinh Phuc,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.700,,market in Quang Binh,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.900,,market in Quang Nam,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.900,,market in Quang Ngai,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.100,,market in Thanh Hoa,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.600,,market in Thanh Hoa,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,1.900,,market in Thua Thien Hue,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.800,,market in Ninh Binh,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.800,,market in Phu Tho,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.800,,market in Thai Nguyen,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.500,,market in An Giang,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.500,,market in Ca Mau,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.600,,market in Dong Nai,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.600,,market in Dong Thap,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.800,,market in Da Nang,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.500,,market in Lam Dong ,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.800,,market in Nghe An,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.800,,market in Quang Tri,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,6.100,,winmart in Ho Chi Minh,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.790,,winmart in Ho Chi Minh,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,5.190,,winmart in Ho Chi Minh,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,5.350,,winmart in Ho Chi Minh,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,5.650,,winmart in Ho Chi Minh,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,6.000,,winmart in Ho Chi Minh,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.500,,winmart in Ho Chi Minh,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,4.500,,winmart in Ho Chi Minh,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,5.190,,winmart in Ho Chi Minh,South Vietnam,N/A,,household,,,https://winmart.vn/search/tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.400,,Bach hoa xanh,South Vietnam,N/A,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.400,,Bach hoa xanh,South Vietnam,N/A,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.200,,Bach hoa xanh,South Vietnam,N/A,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.400,,Bach hoa xanh,South Vietnam,duck,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.800,,Bach hoa xanh,South Vietnam,duck,,household,,,https://www.bachhoaxanh.com/tim-kiem?key=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.076,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.042,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,4.285,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.381,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.142,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.076,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.857,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.285,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.667,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.900,,Mega market pro,South Vietnam,N/A,,household,,,https://mmpro.vn/search.html?query=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.900,,Bon grocer,South Vietnam,N/A,,household,,,https://bongrocer.vn/search?type=product&q=tr%E1%BB%A9ng%20g%C3%A0&sortby=(quantity:product=desc),"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,4.700,,Bon grocer,South Vietnam,N/A,,household,,,https://bongrocer.vn/search?type=product&q=tr%E1%BB%A9ng%20g%C3%A0&sortby=(quantity:product=desc),"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,4.050,,Bon grocer,South Vietnam,N/A,,household,,,https://bongrocer.vn/search?type=product&q=tr%E1%BB%A9ng%20g%C3%A0&sortby=(quantity:product=desc),"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.850,,Kingfood mart ,South Vietnam,N/A,,household,,,https://kingfoodmart.com/search?keyword=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.890,,Kingfood mart ,South Vietnam,N/A,,household,,,https://kingfoodmart.com/search?keyword=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.150,,Kingfood mart ,South Vietnam,N/A,,household,,,https://kingfoodmart.com/search?keyword=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,2.990,,Kingfood mart ,South Vietnam,N/A,,household,,,https://kingfoodmart.com/search?keyword=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-22,per_egg,,3.750,,Kingfood mart ,South Vietnam,N/A,,household,,,https://kingfoodmart.com/search?keyword=tr%E1%BB%A9ng+g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.650,,Kamereo in Ho Chi Minh,South Vietnam,free_range,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.400,,Kamereo in Ho Chi Minh,South Vietnam,N/A,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.400,,Kamereo in Ho Chi Minh,South Vietnam,N/A,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.500,,Kamereo in Ho Chi Minh,South Vietnam,free_range,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.600,,Kamereo in Ho Chi Minh,South Vietnam,N/A,,household,,,https://kamereo.vn/market?q=tr%E1%BB%A9ng%20g%C3%A0,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.700,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.650,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.550,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,4.650,,Thuc pham nhanh in HCM,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.750,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.900,,Thuc pham nhanh in HCM,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.100,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,2.900,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.000,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.200,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,4.900,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,4.800,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.200,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.850,,Aeon HCM,South Vietnam,duck,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.700,,Aeon HCM,South Vietnam,duck,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.300,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.100,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,3.900,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-26,per_egg,,4.600,,Aeon HCM,South Vietnam,N/A,,household,,,https://aeoneshop.com/products/category/230/trung,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.900,,market in Ha Nam,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.100,,market in Ha Noi,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.900,,market in Hung Yen,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.100,,market in Nam Dinh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.600,,market in Nam Dinh,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.800,,market in Thai Binh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.800,,market in Tuyen Quang,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.100,,market in Vinh Phuc,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.700,,market in Vinh Phuc,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.000,,market in Ben Tre,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.400,,market in Can Tho,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.400,,market in Dong Nai,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.900,,market in Dong Nai,South Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.000,,market in Hau Giang,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.700,,market in Lam Dong ,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.100,,market in Nghe An,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.700,,market in Quang Binh,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.900,,market in Quang Nam,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.900,,market in Quang Ngai,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,2.100,,market in Thanh Hoa,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.600,,market in Thanh Hoa,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-29,per_egg,,1.900,,market in Thua Thien Hue,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,3.100,,Mega market,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,3.790,,Mega market,South Vietnam,duck,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,3.850,,Mega market,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,3.800,,Mega market,South Vietnam,duck,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,6.600,,Mega market,South Vietnam,duck,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,4.200,,Mega market,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,5.700,,Mega market,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,5.400,,Mega market,South Vietnam,N/A,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,6.400,,Mega market,South Vietnam,duck,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,6.425,,Mega market,South Vietnam,duck,,household,,,https://online.mmvietnam.com/search.html?query=tr%E1%BB%A9ng,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,3.700,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,3.670,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,3.650,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,3.550,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,4.400,,Thuc pham nhanh in HCM,South Vietnam,N/A,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,3.900,,Thuc pham nhanh in HCM,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,6.300,,Thuc pham nhanh in HCM,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,4.583,,Thuc pham nhanh in HCM,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2025-12-30,per_egg,,6.900,,Thuc pham nhanh in HCM,South Vietnam,duck,,household,,,https://thucphamnhanh.com/?product_cat=&s=tr%E1%BB%A9ng&post_type=product,"the website is updated on a daily basis
+
+"
+,2026-01-02,per_egg,,3.400,,Bach hoa xanh,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/trung-trung-ga,"the website is updated on a daily basis
+
+"
+,2026-01-02,per_egg,,3.400,,Bach hoa xanh,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/trung-trung-ga,"the website is updated on a daily basis
+
+"
+,2026-01-02,per_egg,,3.200,,Bach hoa xanh,South Vietnam,caged,,household,,,https://www.bachhoaxanh.com/trung-trung-ga,"the website is updated on a daily basis
+
+"
+,2026-01-02,per_egg,,4.500,,Bach hoa xanh,South Vietnam,free_range,,household,,,https://www.bachhoaxanh.com/trung-trung-ga,"the website is updated on a daily basis
+
+"
+,2026-01-02,per_egg,,3.800,,Bach hoa xanh,South Vietnam,duck,,household,,,https://www.bachhoaxanh.com/trung-trung-ga#trung-vit,"the website is updated on a daily basis
+
+"
+,2026-01-05,per_egg,,1.900,,market in Thua Thien Hue,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.100,,market in Thanh Hoa,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.600,,market in Thanh Hoa,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.900,,market in Quang Ngai,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.900,,market in Quang Nam,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.700,,market in Quang Binh,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.100,,market in Nghe An,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.700,,market in Lam Dong ,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.000,,market in Binh Dinh,Central Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.000,,market in Hau Giang,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.400,,market in Dong Nai,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.900,,market in Dong Nai,South Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.400,,market in Can Tho,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.000,,market in Ben Tre,South Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.700,,market in Vinh Phuc,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.100,,market in Vinh Phuc,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.800,,market in Tuyen Quang,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.800,,market in Thai Binh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.100,,market in Nam Dinh,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.600,,market in Nam Dinh,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.900,,market in Hung Yen,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.100,,market in Ha Noi,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.700,,market in Ha Noi,North Vietnam,caged,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,1.900,,market in Ha Nam,North Vietnam,free_range,,household,,,https://feedin.me/chart/bang-gia-trung-ga-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.800,,market in Ha Noi,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.800,,market in Hung Yen,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.800,,market in Ninh Binh,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.800,,market in Phu Tho,North Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.500,,market in An Giang,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.500,,market in Ca Mau,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.600,,market in Dong Thap,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.600,,market in Dong Nai,South Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.800,,market in Da Nang,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.700,,market in Dak Lak,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.800,,market in Gia Lai,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
+,2026-01-05,per_egg,,2.500,,market in Lam Dong ,Central Vietnam,duck,,household,,,https://feedin.me/chart/bang-gia-vit-hom-nay,the website is updated on a daily basis
