@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-# =============================
 # Page / Branding
 # =============================
 st.set_page_config(page_title="Egg Price Dashboard — Vietnam (Farmers)", layout="wide")
@@ -369,10 +368,10 @@ else:
     vol_show = vol_show[vol_show["region"].isin(regions_in_scope)]
 
 VOL_COLOR_MAP = {
-    "Risky": "#1f77b4",        # dark blue
-    "Moderate": "#85c5ff",     # light blue
-    "Stable": "#ff4d4d",       # red
-    "Not enough data": "#d3d3d3"
+    "Risky": "#d62728",           # 🔴 red
+    "Moderate": "#ff7f0e",        # 🟠 orange
+    "Stable": "#2ca02c",          # 🟢 green
+    "Not enough data": "#bdbdbd"  # ⚪ grey
 }
 
 fig_vol = px.bar(
