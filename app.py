@@ -369,7 +369,7 @@ else:
 
 VOL_COLOR_MAP = {
     "Risky": "#d62728",           # 🔴 red
-    "Moderate": "#ff7f0e",        # 🟠 orange
+    "Moderate": "#f2c94c",        # 🟠 yellow
     "Stable": "#2ca02c",          # 🟢 green
     "Not enough data": "#bdbdbd"  # ⚪ grey
 }
