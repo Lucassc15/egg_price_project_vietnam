@@ -49,13 +49,23 @@ def load_and_clean(path: str) -> pd.DataFrame:
     #         df = df.iloc[1:].copy()
     # trial code:
     if len(df) > 0:
-    first_row = df.iloc[0]
-    header_like_tokens = ("date", "region", "selling", "selling_price", "selling_price_vnd", "market", "egg")
+    try:
+        first_row = df.iloc[0]
+        header_like_tokens = ("date", "region", "selling", "selling_price", "selling_price_vnd", "market", "egg")
 
-    first_row_strings = [str(cell).strip().lower() for cell in first_row.tolist()]
+        first_row_strings = [str(cell).strip().lower() for cell in first_row.tolist()]
 
-    if any(any(tok in cell for tok in header_like_tokens) for cell in first_row_strings):
-        df = df.iloc[1:].copy()
+        is_header = any(
+            any(tok in cell for tok in header_like_tokens)
+            for cell in first_row_strings
+        )
+
+        if is_header:
+            df = df.iloc[1:].copy()
+
+    except Exception:
+        # If anything goes wrong, just skip header detection safely
+        pass
 # end of trial code
     
     # Convert date (keep rows even if date is missing)
