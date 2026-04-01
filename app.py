@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
+# =============================
 # Page / Branding
 # =============================
 st.set_page_config(page_title="Egg Price Dashboard — Vietnam (Farmers)", layout="wide")
@@ -12,7 +13,7 @@ st.caption(
     "Farmer-friendly signals: compare average prices, see short-term direction, and understand price stability."
 )
 
-DATA_PATH = "database.csv"  # keep the CSV in the same folder as this app
+DATA_PATH = "Database.csv"  # keep the CSV in the same folder as this app
 
 # =============================
 # Data Load & Cleaning
@@ -41,12 +42,22 @@ def load_and_clean(path: str) -> pd.DataFrame:
         df.columns = intended_cols + [f"extra_{i}" for i in range(df.shape[1] - len(intended_cols))]
 
     # Remove “internal header row” ONLY if first row looks like headers
+    # if len(df) > 0:
+    #     first_row = df.iloc[0].astype(str).str.lower()
+    #     header_like_tokens = ("date", "region", "selling", "selling_price", "selling_price_vnd", "market", "egg")
+    #     if any(any(tok in cell for tok in header_like_tokens) for cell in first_row.values):
+    #         df = df.iloc[1:].copy()
+    # trial code:
     if len(df) > 0:
-        first_row = df.iloc[0].astype(str).str.lower()
-        header_like_tokens = ("date", "region", "selling", "selling_price", "selling_price_vnd", "market", "egg")
-        if any(any(tok in cell for tok in header_like_tokens) for cell in first_row.values):
-            df = df.iloc[1:].copy()
+    first_row = df.iloc[0]
+    header_like_tokens = ("date", "region", "selling", "selling_price", "selling_price_vnd", "market", "egg")
 
+    first_row_strings = [str(cell).strip().lower() for cell in first_row.tolist()]
+
+    if any(any(tok in cell for tok in header_like_tokens) for cell in first_row_strings):
+        df = df.iloc[1:].copy()
+# end of trial code
+    
     # Convert date (keep rows even if date is missing)
     if "date" in df.columns:
         df["date"] = pd.to_datetime(df["date"], errors="coerce")
@@ -368,10 +379,10 @@ else:
     vol_show = vol_show[vol_show["region"].isin(regions_in_scope)]
 
 VOL_COLOR_MAP = {
-    "Risky": "#d62728",           # 🔴 red
-    "Moderate": "#f2c94c",        # 🟠 yellow
-    "Stable": "#2ca02c",          # 🟢 green
-    "Not enough data": "#bdbdbd"  # ⚪ grey
+    "Risky": "#1f77b4",        # dark blue
+    "Moderate": "#85c5ff",     # light blue
+    "Stable": "#ff4d4d",       # red
+    "Not enough data": "#d3d3d3"
 }
 
 fig_vol = px.bar(
