@@ -13,7 +13,7 @@ st.caption(
     "Farmer-friendly signals: compare average prices, see short-term direction, and understand price stability."
 )
 
-DATA_PATH = "Database.csv"  # keep the CSV in the same folder as this app
+DATA_PATH = "database.csv"  # keep the CSV in the same folder as this app
 
 # =============================
 # Data Load & Cleaning
