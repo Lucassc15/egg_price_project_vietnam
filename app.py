@@ -407,14 +407,34 @@ fig_vol.update_layout(
 
 st.plotly_chart(fig_vol, use_container_width=True)
 
+# Create a dynamic example from the currently displayed volatility chart
+example_std_text = "N/A"
+example_region_text = ""
+
+if not vol_show.empty and vol_show["std"].notna().any():
+    # If a single region is selected, use that region's value
+    if selected_region != "(All)":
+        row_example = vol_show.iloc[0]
+    else:
+        # Otherwise use the first region shown in the chart
+        row_example = vol_show.sort_values("std", ascending=False).iloc[0]
+
+    example_std = row_example["std"]
+    example_region = row_example["region"]
+
+    if pd.notna(example_std):
+        example_std_text = f"{example_std:,.0f}"
+        example_region_text = f" for *{example_region}*"
+
 st.info(
-    "**Interpretation:**\n"
+    "*Interpretation:*\n"
     "Volatility shows how much prices move up and down. "
-    "**Stable** regions change less (lower risk and easier planning), while "
-    "**Risky** regions change more from week to week (harder to plan).\n\n"
-    "The volatility value (for example **±779 VND**) means prices typically move "
-    "about **779 VND up or down per week** around the average price.\n\n"
-    "Risk labels are calculated using a consistent baseline, so they do **not change** "
+    "*Stable* regions change less (lower risk and easier planning), while "
+    "*Risky* regions change more from week to week (harder to plan).\n\n"
+    f"The volatility value (for example *±{example_std_text} VND*{example_region_text}) "
+    f"means prices typically move about *{example_std_text} VND up or down per week* "
+    "around the average price.\n\n"
+    "Risk labels are calculated using a consistent baseline, so they do *not change* "
     "when you filter regions."
 )
 
