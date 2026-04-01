@@ -382,11 +382,12 @@ else:
     regions_in_scope = sorted(df_f["region"].dropna().unique().tolist())
     vol_show = vol_show[vol_show["region"].isin(regions_in_scope)]
 
+# Last chart colors
 VOL_COLOR_MAP = {
-    "Risky": "#1f77b4",        # dark blue
-    "Moderate": "#85c5ff",     # light blue
-    "Stable": "#ff4d4d",       # red
-    "Not enough data": "#d3d3d3"
+    "Risky": "#e03131",        # softer red
+    "Moderate": "#fab005",     # amber (better than yellow sometimes)
+    "Stable": "#2f9e44",       # deeper green
+    "Not enough data": "#adb5bd"
 }
 
 fig_vol = px.bar(
