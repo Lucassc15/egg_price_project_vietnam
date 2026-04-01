@@ -384,10 +384,10 @@ else:
 
 # Last chart colors
 VOL_COLOR_MAP = {
-    "Risky": "#e03131",        # softer red
-    "Moderate": "#fab005",     # amber (better than yellow sometimes)
-    "Stable": "#2f9e44",       # deeper green
-    "Not enough data": "#adb5bd"
+    "Risky": "#d62728",
+    "Moderate": "#f2c94c",
+    "Stable": "#2ca02c",
+    "Not enough data": "#bdbdbd"
 }
 
 fig_vol = px.bar(
