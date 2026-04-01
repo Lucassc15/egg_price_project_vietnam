@@ -42,34 +42,28 @@ def load_and_clean(path: str) -> pd.DataFrame:
         df.columns = intended_cols + [f"extra_{i}" for i in range(df.shape[1] - len(intended_cols))]
 
     # Remove “internal header row” ONLY if first row looks like headers
-    # if len(df) > 0:
-    #     first_row = df.iloc[0].astype(str).str.lower()
-    #     header_like_tokens = ("date", "region", "selling", "selling_price", "selling_price_vnd", "market", "egg")
-    #     if any(any(tok in cell for tok in header_like_tokens) for cell in first_row.values):
-    #         df = df.iloc[1:].copy()
-    # trial code:
-    
-if len(df) > 0:
-    try:
-        first_row = df.iloc[0]
-        header_like_tokens = ("date", "region", "selling", "selling_price", "selling_price_vnd", "market", "egg")
+    if len(df) > 0:
+        try:
+            first_row = df.iloc[0]
+            header_like_tokens = (
+                "date", "region", "selling", "selling_price",
+                "selling_price_vnd", "market", "egg"
+            )
 
-        first_row_strings = [str(cell).strip().lower() for cell in first_row.tolist()]
+            first_row_strings = [str(cell).strip().lower() for cell in first_row.tolist()]
 
-        is_header = any(
-            any(tok in cell for tok in header_like_tokens)
-            for cell in first_row_strings
-        )
+            is_header = any(
+                any(tok in cell for tok in header_like_tokens)
+                for cell in first_row_strings
+            )
 
-        if is_header:
-            df = df.iloc[1:].copy()
+            if is_header:
+                df = df.iloc[1:].copy()
 
-    except Exception:
-        # If anything goes wrong, just skip header detection safely
-        pass
-    
-# end of trial code
-    
+        except Exception:
+            # If anything goes wrong, just skip header detection safely
+            pass
+
     # Convert date (keep rows even if date is missing)
     if "date" in df.columns:
         df["date"] = pd.to_datetime(df["date"], errors="coerce")
@@ -92,7 +86,7 @@ if len(df) > 0:
     else:
         df["egg_type"] = df["egg_type"].fillna("General egg prices")
 
-    # Price scale fix -> ALWAYS produce VND in `price_vnd`
+    # Price scale fix -> ALWAYS produce VND in ⁠ price_vnd ⁠
     if "selling_price_vnd" not in df.columns:
         df["price_vnd"] = np.nan
     else:
@@ -104,7 +98,7 @@ if len(df) > 0:
         else:  # already VND (e.g., 3490)
             df["price_vnd"] = df["selling_price_vnd"]
 
-    # ✅ Drop ONLY rows missing price
+    # Drop ONLY rows missing price
     df = df.dropna(subset=["price_vnd"]).copy()
 
     # Sort by date if available (does not drop missing dates)
@@ -113,10 +107,8 @@ if len(df) > 0:
 
     return df
 
-
 df = load_and_clean(DATA_PATH)
 PRICE_COL = "price_vnd"  # ✅ ALWAYS VND
-
 
 # =============================
 # Sidebar Filters (simple)
