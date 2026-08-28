@@ -317,17 +317,27 @@ def direction_from_change(pct: float) -> str:
     return "→ Sideways"
 
 
-def options_for(data: pd.DataFrame, column: str) -> list:
+def values_for(data: pd.DataFrame, column: str) -> list:
+    """Return clean unique values for multiselect filters."""
     if column not in data.columns:
-        return ["(All)"]
+        return []
+
     values = (
         data[column]
         .dropna()
         .astype(str)
         .str.strip()
     )
-    values = sorted(v for v in values.unique().tolist() if v and v.lower() != "nan")
-    return ["(All)"] + values
+
+    return sorted(
+        v for v in values.unique().tolist()
+        if v and v.lower() != "nan"
+    )
+
+
+def options_for(data: pd.DataFrame, column: str) -> list:
+    """Return clean unique values with an (All) option for selectboxes."""
+    return ["(All)"] + values_for(data, column)
 
 
 def apply_single_filter(data: pd.DataFrame, column: str, selected: str) -> pd.DataFrame:
@@ -452,10 +462,14 @@ selected_egg_type = st.sidebar.selectbox(
 )
 
 with st.sidebar.expander("More filters"):
-    selected_production = st.selectbox(
+    selected_productions = st.multiselect(
         "Production system",
-        options_for(df_option_scope, PRODUCTION_COL),
-        index=0,
+        options=values_for(df_option_scope, PRODUCTION_COL),
+        default=[],
+        help=(
+            "Select one or more production systems. "
+            "Leave empty to include all production systems."
+        ),
     )
     selected_brand = st.selectbox(
         "Brand",
@@ -494,7 +508,6 @@ filter_pairs = [
     (PROVINCE_COL, selected_province),
     (SOURCE_COL, selected_source),
     (EGG_TYPE_COL, selected_egg_type),
-    (PRODUCTION_COL, selected_production),
     (BRAND_COL, selected_brand),
     (STORE_COL, selected_store),
     (PRODUCT_COL, selected_product),
@@ -504,6 +517,13 @@ filter_pairs = [
 
 for column, selected in filter_pairs:
     df_f = apply_single_filter(df_f, column, selected)
+
+# Production system supports one or multiple selections.
+# If nothing is selected, all production systems remain in scope.
+if selected_productions and PRODUCTION_COL in df_f.columns:
+    df_f = df_f[
+        df_f[PRODUCTION_COL].astype(str).isin(selected_productions)
+    ].copy()
 
 if df_f.empty:
     st.warning("No data found for the selected filters.")
@@ -611,6 +631,116 @@ else:
     st.caption(
         "Market, farmgate, and retail observations are shown separately to avoid blending different supply-chain price levels."
     )
+
+st.divider()
+
+
+# ============================================================
+# EGG TYPE PRICE COMPARISON BY PRODUCTION SYSTEM
+# ------------------------------------------------------------
+# The user can select one or multiple production systems.
+# This dedicated chart keeps all egg types in scope so they
+# can be compared side by side.
+# ============================================================
+st.subheader("Egg Type Price Comparison by Production System")
+
+if not selected_productions:
+    st.info(
+        "Select one or more Production systems under **More filters** "
+        "to compare egg-type prices."
+    )
+else:
+    # Start from the date-filtered dataset and apply the same filters
+    # except Egg type. This keeps both/all egg types available here.
+    production_compare = df_scope.copy()
+
+    comparison_filters = [
+        (PRICE_LEVEL_COL, selected_price_level),
+        (REGION_COL, selected_region),
+        (PROVINCE_COL, selected_province),
+        (SOURCE_COL, selected_source),
+        (BRAND_COL, selected_brand),
+        (STORE_COL, selected_store),
+        (PRODUCT_COL, selected_product),
+        (QUALITY_COL, selected_quality),
+        (DATA_ORIGIN_COL, selected_origin),
+    ]
+
+    for column, selected in comparison_filters:
+        production_compare = apply_single_filter(
+            production_compare,
+            column,
+            selected,
+        )
+
+    production_compare = production_compare[
+        production_compare[PRODUCTION_COL]
+        .astype(str)
+        .isin(selected_productions)
+    ].copy()
+
+    production_compare = production_compare[
+        production_compare[EGG_TYPE_COL].notna()
+        & production_compare[PRICE_COL].notna()
+    ].copy()
+
+    if production_compare.empty:
+        st.info(
+            "No egg-type price data is available for the selected "
+            "production system and filters."
+        )
+    else:
+        egg_type_summary = (
+            production_compare
+            .groupby([PRODUCTION_COL, EGG_TYPE_COL], as_index=False)
+            .agg(
+                Average_Price=(PRICE_COL, "mean"),
+                Minimum_Price=(PRICE_COL, "min"),
+                Maximum_Price=(PRICE_COL, "max"),
+                Observations=(PRICE_COL, "size"),
+            )
+        )
+
+        fig_egg_compare = px.bar(
+            egg_type_summary,
+            x=PRODUCTION_COL,
+            y="Average_Price",
+            color=EGG_TYPE_COL,
+            barmode="group",
+            text=egg_type_summary["Average_Price"].round(0),
+            color_discrete_sequence=[
+                HF_DARK_GREEN,
+                HF_TERRACOTTA,
+                HF_WARM_YELLOW,
+                HF_SAGE,
+            ],
+            title="Average Price per Egg by Production System and Egg Type",
+            hover_data={
+                "Minimum_Price": ":,.0f",
+                "Maximum_Price": ":,.0f",
+                "Observations": True,
+            },
+        )
+
+        fig_egg_compare.update_traces(
+            texttemplate="₫%{text:,.0f}",
+            textposition="outside",
+        )
+        fig_egg_compare.update_layout(
+            xaxis_title="Production system",
+            yaxis_title="Average price per egg (VND)",
+            yaxis_tickformat=",",
+            legend_title_text="Egg type",
+        )
+        style_figure(fig_egg_compare, "Egg type")
+        st.plotly_chart(fig_egg_compare, use_container_width=True)
+
+        st.caption(
+            "The chart compares the available egg types side by side for "
+            "the selected production system(s). You can select one system "
+            "or multiple systems."
+        )
+
 
 st.divider()
 
@@ -1055,14 +1185,6 @@ with st.expander("View filtered data"):
         df_f[display_cols].sort_values(DATE_COL, ascending=False),
         use_container_width=True,
         hide_index=True,
-    )
-
-    csv = df_f.to_csv(index=False).encode("utf-8-sig")
-    st.download_button(
-        "Download filtered data (CSV)",
-        data=csv,
-        file_name="ANALYTICS_EGG_PRICE_DATA_filtered.csv",
-        mime="text/csv",
     )
 
 st.caption(
