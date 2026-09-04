@@ -1,192 +1,115 @@
 from pathlib import Path
 from datetime import date
+
 import numpy as np
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-# ============================================================
-# PAGE CONFIGURATION
-# ============================================================
 st.set_page_config(
     page_title="Vietnam Egg Price Intelligence | HealthyFarm",
     page_icon="🥚",
     layout="wide",
 )
 
-
 # ============================================================
-# HEALTHYFARM-INSPIRED BRAND PALETTE
+# HEALTHYFARM BRAND KIT
 # ------------------------------------------------------------
-# The dashboard uses the same visual direction as HealthyFarm:
-# natural greens, warm cream backgrounds, and a yellow accent.
+# Official client palette (HEALTHYFARM BRAND KIT):
+# #8C1E14 red, #FF8325 orange, #FFD230 yellow,
+# #192E6D navy, #0E9E8B teal. Typography: Nunito.
 # ============================================================
-HF_DARK_GREEN = "#234B3A"
-HF_GREEN = "#4F775D"
-HF_SAGE = "#8FAE91"
-HF_LIGHT_GREEN = "#E8F0E7"
-HF_CREAM = "#F7F3E8"
-HF_WARM_YELLOW = "#E8B84A"
-HF_SOFT_YELLOW = "#F6E8B4"
-HF_TERRACOTTA = "#C9774D"
-HF_TEXT = "#26332B"
-HF_MUTED = "#68736C"
+HF_RED = "#8C1E14"
+HF_ORANGE = "#FF8325"
+HF_YELLOW = "#FFD230"
+HF_NAVY = "#192E6D"
+HF_TEAL = "#0E9E8B"
 HF_WHITE = "#FFFFFF"
-HF_BORDER = "#DDE5DC"
-HF_ERROR = "#B94A48"
+HF_BG = "#F8FAF9"
+HF_LIGHT_TEAL = "#E8F6F4"
+HF_LIGHT_YELLOW = "#FFF7D8"
+HF_TEXT = "#24304A"
+HF_MUTED = "#667085"
+HF_BORDER = "#DCE6E4"
 
 LEVEL_COLOR_MAP = {
-    "Market": HF_DARK_GREEN,
-    "Farmgate": HF_WARM_YELLOW,
-    "Retail": HF_TERRACOTTA,
+    "Market": HF_NAVY,
+    "Farmgate": HF_YELLOW,
+    "Retail": HF_TEAL,
 }
-
+HOUSING_COLOR_MAP = {
+    "Caged": HF_RED,
+    "Cage-Free": HF_TEAL,
+    "Free-Range": HF_ORANGE,
+}
 REGION_COLOR_MAP = {
-    "North": HF_DARK_GREEN,
-    "Central": HF_WARM_YELLOW,
-    "South": HF_TERRACOTTA,
-    "Unknown": HF_SAGE,
+    "North": HF_NAVY,
+    "Central": HF_ORANGE,
+    "South": HF_TEAL,
 }
+HOUSING_ORDER = ["Caged", "Cage-Free", "Free-Range"]
+LEVEL_ORDER = ["Market", "Farmgate", "Retail"]
 
-# Apply a HealthyFarm-inspired Streamlit theme with CSS.
 st.markdown(
     f"""
     <style>
-        .stApp {{
-            background-color: {HF_CREAM};
-            color: {HF_TEXT};
-        }}
-
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+        .stApp {{ background-color: {HF_BG}; color: {HF_TEXT}; font-family: 'Nunito', sans-serif; }}
+        .stApp p, .stApp label, .stApp h1, .stApp h2, .stApp h3, .stApp h4 {{ font-family: 'Nunito', sans-serif; }}
         [data-testid="stSidebar"] {{
-            background-color: {HF_LIGHT_GREEN};
+            background-color: {HF_LIGHT_TEAL};
             border-right: 1px solid {HF_BORDER};
         }}
-
-        [data-testid="stSidebar"] * {{
-            color: {HF_TEXT};
-        }}
-
-        h1, h2, h3, h4 {{
-            color: {HF_DARK_GREEN};
-        }}
-
+        [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {{ color: {HF_NAVY}; }}
+        h1, h2, h3, h4 {{ color: {HF_NAVY}; }}
         .hf-hero {{
-            background: linear-gradient(135deg, {HF_DARK_GREEN} 0%, {HF_GREEN} 100%);
-            border-radius: 18px;
-            padding: 24px 28px;
-            margin-bottom: 18px;
-            color: white;
+            background: {HF_NAVY};
+            border-radius: 18px; padding: 24px 28px; margin: 8px 0 20px 0; color: white;
+            border-bottom: 5px solid {HF_TEAL};
         }}
-
-        .hf-hero h1 {{
-            color: white;
-            margin: 0 0 6px 0;
-            font-size: 2.15rem;
-            line-height: 1.15;
-        }}
-
-        .hf-hero p {{
-            color: #F5F7F4;
-            margin: 0;
-            font-size: 1rem;
-        }}
-
+        .hf-hero h1 {{ color: white; margin: 0 0 6px 0; font-size: 2.15rem; font-weight: 900; }}
+        .hf-hero p {{ color: white; margin: 0; font-size: 1rem; }}
         .hf-tag {{
-            display: inline-block;
-            background-color: {HF_WARM_YELLOW};
-            color: {HF_DARK_GREEN};
-            font-weight: 700;
-            padding: 5px 10px;
-            border-radius: 999px;
-            margin-bottom: 10px;
-            font-size: 0.82rem;
+            display: inline-block; background-color: {HF_YELLOW};
+            color: {HF_NAVY}; font-weight: 900; padding: 5px 10px;
+            border-radius: 999px; margin-bottom: 10px; font-size: 0.82rem;
         }}
-
         [data-testid="stMetric"] {{
-            background-color: {HF_WHITE};
-            border: 1px solid {HF_BORDER};
-            border-radius: 14px;
-            padding: 14px 16px;
-            box-shadow: 0 1px 3px rgba(35, 75, 58, 0.05);
+            background-color: {HF_WHITE}; border: 1px solid {HF_BORDER};
+            border-radius: 14px; padding: 14px 16px;
+            box-shadow: 0 2px 8px rgba(25,46,109,0.05);
         }}
-
-        [data-testid="stMetricLabel"] {{
-            color: {HF_MUTED};
-        }}
-
-        [data-testid="stMetricValue"] {{
-            color: {HF_DARK_GREEN};
-        }}
-
+        [data-testid="stMetricLabel"] {{ color: {HF_MUTED}; font-weight: 700; }}
+        [data-testid="stMetricValue"] {{ color: {HF_NAVY}; font-weight: 900; }}
         div[data-testid="stExpander"] {{
-            background-color: {HF_WHITE};
-            border: 1px solid {HF_BORDER};
-            border-radius: 12px;
+            background-color: {HF_WHITE}; border: 1px solid {HF_BORDER}; border-radius: 12px;
         }}
-
-        .stButton > button,
-        .stDownloadButton > button {{
-            background-color: {HF_DARK_GREEN};
-            color: white;
-            border: none;
-            border-radius: 10px;
-        }}
-
-        .stButton > button:hover,
-        .stDownloadButton > button:hover {{
-            background-color: {HF_GREEN};
-            color: white;
-        }}
-
-        hr {{
-            border-color: {HF_BORDER};
-        }}
-
         .hf-note {{
-            background-color: {HF_SOFT_YELLOW};
-            border-left: 5px solid {HF_WARM_YELLOW};
-            padding: 12px 14px;
-            border-radius: 8px;
-            color: {HF_TEXT};
-            margin: 8px 0 16px 0;
+            background-color: {HF_LIGHT_YELLOW}; border-left: 5px solid {HF_YELLOW};
+            padding: 12px 14px; border-radius: 8px; color: {HF_TEXT}; margin: 8px 0 16px 0;
         }}
-
-        .hf-small {{
-            color: {HF_MUTED};
-            font-size: 0.9rem;
+        .hf-info {{
+            background-color: {HF_LIGHT_TEAL}; border-left: 5px solid {HF_TEAL};
+            padding: 12px 14px; border-radius: 8px; color: {HF_TEXT}; margin: 8px 0 16px 0;
         }}
+        .hf-small {{ color: {HF_MUTED}; font-size: 0.9rem; }}
+        hr {{ border-color: {HF_BORDER}; }}
     </style>
     """,
     unsafe_allow_html=True,
 )
 
-
 # ============================================================
-# DATA SOURCE
-# ------------------------------------------------------------
-# Expected GitHub / local project structure:
-#
-# egg_price_project_vietnam/
-# ├── app.py
-# ├── preprocessing_clean_analytics.ipynb
-# ├── ANALYTICS_EGG_PRICE_DATA.csv
-# └── requirements.txt
-#
-# The analytics CSV lives in the SAME folder as app.py.
-# Using __file__ keeps the path portable on Windows, GitHub,
-# and Streamlit deployment.
+# DATA
 # ============================================================
 DATA_FILE_NAME = "ANALYTICS_EGG_PRICE_DATA.csv"
-
-# Folder where app.py is located
 BASE_DIR = Path(__file__).resolve().parent
+LOGO_PATH = BASE_DIR / "assets" / "healthyfarm_logo.png"
+DATA_CANDIDATES = [
+    BASE_DIR / DATA_FILE_NAME,
+    BASE_DIR / "processed_data" / DATA_FILE_NAME,
+]
 
-# Analytics-ready database created by preprocessing
-DATA_PATH = BASE_DIR / DATA_FILE_NAME
-
-# ============================================================
-# ANALYTICS COLUMN DEFINITIONS
-# ============================================================
 DATE_COL = "Date Clean"
 PRICE_COL = "Price Per Egg VND Clean"
 PRICE_LEVEL_COL = "Price Level"
@@ -195,10 +118,9 @@ PROVINCE_COL = "Province Normalized"
 CITY_COL = "City Normalized"
 SOURCE_COL = "Source"
 QUALITY_COL = "Quality Status"
-DATA_ORIGIN_COL = "Data Origin"
 EGG_TYPE_COL = "Egg Type Label"
-EGG_TYPE_FALLBACK = "Egg Type Normalized"
-PRODUCTION_COL = "Production System"
+HOUSING_COL = "Housing System"
+HOUSING_STATUS_COL = "Housing Label Status"
 BRAND_COL = "Brand"
 PRODUCT_COL = "Product Name"
 STORE_COL = "Store Name"
@@ -206,81 +128,47 @@ PACK_PRICE_COL = "Pack Price VND"
 EGG_COUNT_COL = "Egg Count Clean"
 
 
-# ============================================================
-# DATA LOAD
-# ------------------------------------------------------------
-# Data engineering belongs in preprocessing_clean_analytics.ipynb.
-# Streamlit only performs light type checking and a final safety check.
-# ============================================================
+def find_data_path() -> Path:
+    for candidate in DATA_CANDIDATES:
+        if candidate.exists():
+            return candidate
+    return DATA_CANDIDATES[0]
+
+
 @st.cache_data(show_spinner=False)
-def load_analytics_data(path: str, file_modified_time: float) -> pd.DataFrame:
-    """
-    Load the preprocessed analytics CSV.
-
-    file_modified_time is part of the cache key, so Streamlit
-    reloads the data automatically whenever preprocessing
-    creates a newer analytics CSV.
-    """
-    df = pd.read_csv(path, encoding="utf-8-sig")
-
-    required_columns = [DATE_COL, PRICE_COL, PRICE_LEVEL_COL, REGION_COL, SOURCE_COL]
-    missing = [col for col in required_columns if col not in df.columns]
+def load_data(path: str, modified: float) -> pd.DataFrame:
+    df = pd.read_csv(path, encoding="utf-8-sig", low_memory=False)
+    required = [DATE_COL, PRICE_COL, PRICE_LEVEL_COL, SOURCE_COL, HOUSING_COL]
+    missing = [c for c in required if c not in df.columns]
     if missing:
         raise ValueError(
-            "The analytics file is missing required columns: " + ", ".join(missing)
+            "Analytics file is missing required columns: " + ", ".join(missing)
+            + ". Run the updated preprocessing notebook first."
         )
 
-    # Parse types used by the dashboard.
-    df[DATE_COL] = pd.to_datetime(df[DATE_COL], errors="coerce")
-
-    numeric_cols = [
-        PRICE_COL,
-        PACK_PRICE_COL,
-        EGG_COUNT_COL,
-        "Buying Price VND",
-        "Selling Price VND",
-        "Quantity Sold",
-        "Stock Quantity",
-        "Feed Cost VND",
-    ]
-    for col in numeric_cols:
+    df[DATE_COL] = pd.to_datetime(df[DATE_COL], errors="coerce", format="mixed")
+    for col in [PRICE_COL, PACK_PRICE_COL, EGG_COUNT_COL]:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce")
 
-    # Final dashboard safety checks.
-    # The preprocessing notebook should already have removed these rows,
-    # but keeping this guard prevents accidental display of known hard errors.
     if "Analytics Eligible" in df.columns:
-        df = df[df["Analytics Eligible"].astype(str).str.lower().eq("yes")].copy()
-
+        df = df[df["Analytics Eligible"].astype(str).str.casefold().eq("yes")].copy()
     if QUALITY_COL in df.columns:
         df = df[~df[QUALITY_COL].astype(str).str.upper().eq("ERROR")].copy()
 
     df = df[df[DATE_COL].notna() & df[PRICE_COL].notna()].copy()
-    df = df.sort_values(DATE_COL).reset_index(drop=True)
-
-    # Friendly egg type display if the label field is unavailable.
-    if EGG_TYPE_COL not in df.columns and EGG_TYPE_FALLBACK in df.columns:
-        df[EGG_TYPE_COL] = df[EGG_TYPE_FALLBACK]
-
-    return df
+    df = df[df[PRICE_COL].between(500, 20_000)].copy()
+    return df.sort_values(DATE_COL).reset_index(drop=True)
 
 
+DATA_PATH = find_data_path()
 try:
     if not DATA_PATH.exists():
         raise FileNotFoundError(DATA_PATH)
-
-    df = load_analytics_data(
-        str(DATA_PATH),
-        DATA_PATH.stat().st_mtime,
-    )
-
+    df = load_data(str(DATA_PATH), DATA_PATH.stat().st_mtime)
 except FileNotFoundError:
     st.error(
-        f"Could not find **{DATA_FILE_NAME}** at:\n\n"
-        f"`{DATA_PATH}`\n\n"
-        "Run `preprocessing_clean_analytics.ipynb` first so the file is created "
-        "in the same project folder as `app.py`."
+        f"Could not find **{DATA_FILE_NAME}**. Run the updated preprocessing notebook first."
     )
     st.stop()
 except Exception as exc:
@@ -291,7 +179,6 @@ if df.empty:
     st.error("The analytics dataset contains no usable observations.")
     st.stop()
 
-
 # ============================================================
 # HELPERS
 # ============================================================
@@ -301,42 +188,21 @@ def format_vnd(value) -> str:
     return f"₫{value:,.0f}"
 
 
-def safe_pct_change(previous: float, current: float) -> float:
-    if pd.isna(previous) or pd.isna(current) or previous == 0:
-        return np.nan
-    return (current - previous) / previous * 100.0
+def format_pct(value) -> str:
+    if pd.isna(value):
+        return "—"
+    sign = "+" if value > 0 else ""
+    return f"{sign}{value:,.1f}%"
 
 
-def direction_from_change(pct: float) -> str:
-    if pd.isna(pct):
-        return "Not enough data"
-    if pct > 1.0:
-        return "↑ Up"
-    if pct < -1.0:
-        return "↓ Down"
-    return "→ Sideways"
-
-
-def values_for(data: pd.DataFrame, column: str) -> list:
-    """Return clean unique values for multiselect filters."""
+def values_for(data: pd.DataFrame, column: str) -> list[str]:
     if column not in data.columns:
         return []
-
-    values = (
-        data[column]
-        .dropna()
-        .astype(str)
-        .str.strip()
-    )
-
-    return sorted(
-        v for v in values.unique().tolist()
-        if v and v.lower() != "nan"
-    )
+    values = data[column].dropna().astype(str).str.strip()
+    return sorted(v for v in values.unique().tolist() if v and v.lower() != "nan")
 
 
-def options_for(data: pd.DataFrame, column: str) -> list:
-    """Return clean unique values with an (All) option for selectboxes."""
+def options_for(data: pd.DataFrame, column: str) -> list[str]:
     return ["(All)"] + values_for(data, column)
 
 
@@ -348,161 +214,128 @@ def apply_single_filter(data: pd.DataFrame, column: str, selected: str) -> pd.Da
 
 def style_figure(fig, legend_title=None):
     fig.update_layout(
-        paper_bgcolor=HF_CREAM,
+        paper_bgcolor=HF_BG,
         plot_bgcolor=HF_WHITE,
         font=dict(color=HF_TEXT),
-        title_font=dict(color=HF_DARK_GREEN, size=18),
+        title_font=dict(color=HF_NAVY, size=18),
         margin=dict(l=20, r=20, t=55, b=20),
         hoverlabel=dict(bgcolor=HF_WHITE, font_color=HF_TEXT),
     )
-    fig.update_xaxes(gridcolor="#EEF1EC", linecolor=HF_BORDER)
-    fig.update_yaxes(gridcolor="#EEF1EC", linecolor=HF_BORDER)
-    if legend_title is not None:
+    fig.update_xaxes(gridcolor="#EEF2F1", linecolor=HF_BORDER)
+    fig.update_yaxes(gridcolor="#EEF2F1", linecolor=HF_BORDER)
+    if legend_title:
         fig.update_layout(legend_title_text=legend_title)
     return fig
 
 
 def aggregation_rule(data: pd.DataFrame):
-    if data.empty:
-        return "W", "Weekly"
-    span_days = (data[DATE_COL].max() - data[DATE_COL].min()).days
-    if span_days > 730:
+    span = (data[DATE_COL].max() - data[DATE_COL].min()).days if not data.empty else 0
+    if span > 730:
         return "MS", "Monthly"
-    if span_days > 120:
+    if span > 120:
         return "W", "Weekly"
     return "D", "Daily"
+
+
+def level_average(data: pd.DataFrame, level: str) -> float:
+    scoped = data[data[PRICE_LEVEL_COL] == level]
+    return scoped[PRICE_COL].mean() if not scoped.empty else np.nan
+
+
+def spread_metrics(data: pd.DataFrame, base_level="Market", target_level="Retail"):
+    base = level_average(data, base_level)
+    target = level_average(data, target_level)
+    if pd.isna(base) or pd.isna(target) or base == 0:
+        return base, target, np.nan, np.nan
+    spread = target - base
+    pct = spread / base * 100
+    return base, target, spread, pct
 
 
 # ============================================================
 # HERO
 # ============================================================
+if LOGO_PATH.exists():
+    st.image(str(LOGO_PATH), width=300)
+
 st.markdown(
     """
     <div class="hf-hero">
-        <div class="hf-tag">HealthyFarm Market Intelligence</div>
+        <div class="hf-tag">HealthyFarm Egg Price Intelligence</div>
         <h1>Vietnam Egg Price Dashboard</h1>
-        <p>Track market, farmgate, and retail egg prices across Vietnam using one clean analytics dataset.</p>
+        <p>Track market, farmgate and retail egg prices, with transparent comparisons for Caged, Cage-Free and explicitly identified Free-Range eggs.</p>
     </div>
     """,
     unsafe_allow_html=True,
 )
 
+st.markdown(
+    """
+    <div class="hf-info">
+    <b>Current methodology:</b> FeedIn and AGROINFO are treated as <b>Caged provisionally</b> while source methodology is being confirmed.
+    Cage-Free and Free-Range are only shown when supported by the product/source classification.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 # ============================================================
-# SIDEBAR FILTERS
+# FILTERS
 # ============================================================
 st.sidebar.header("Filters")
-st.sidebar.caption(f"Data source: {DATA_FILE_NAME}")
+st.sidebar.caption(f"Data source: {DATA_PATH.name}")
 
 min_date = df[DATE_COL].min().date()
 max_date = df[DATE_COL].max().date()
-
-# Default to the latest calendar year's YTD view.
-default_start = date(max_date.year, 1, 1)
-if default_start < min_date:
-    default_start = min_date
-
+default_start = max(min_date, date(max_date.year, 1, 1))
 selected_dates = st.sidebar.date_input(
     "Date range",
     value=(default_start, max_date),
     min_value=min_date,
     max_value=max_date,
 )
-
 if isinstance(selected_dates, (tuple, list)) and len(selected_dates) == 2:
     start_date, end_date = selected_dates
 else:
-    start_date = selected_dates
-    end_date = selected_dates
+    start_date = end_date = selected_dates
 
-# Start with date filter so all following options reflect the selected period.
-df_scope = df[
+scope = df[
     (df[DATE_COL].dt.date >= start_date)
     & (df[DATE_COL].dt.date <= end_date)
 ].copy()
 
-price_levels = options_for(df_scope, PRICE_LEVEL_COL)
 selected_price_level = st.sidebar.selectbox(
     "Price level",
-    price_levels,
-    index=0,
-    help="Market, Farmgate, and Retail are kept separate because they represent different points in the supply chain.",
+    options_for(scope, PRICE_LEVEL_COL),
+    help="Market, Farmgate and Retail remain separate supply-chain price levels.",
 )
 
-df_option_scope = apply_single_filter(df_scope, PRICE_LEVEL_COL, selected_price_level)
-
-selected_region = st.sidebar.selectbox(
-    "Region",
-    options_for(df_option_scope, REGION_COL),
-    index=0,
+available_housing = [h for h in HOUSING_ORDER if h in values_for(scope, HOUSING_COL)]
+selected_housing = st.sidebar.multiselect(
+    "Housing system",
+    options=available_housing,
+    default=[],
+    help=(
+        "Leave empty to use all price observations. Housing comparison charts only use correctly labeled "
+        "Caged, Cage-Free and explicit Free-Range records; Unknown is never used in housing comparisons."
+    ),
 )
 
-df_option_scope = apply_single_filter(df_option_scope, REGION_COL, selected_region)
-
-selected_province = st.sidebar.selectbox(
-    "Province",
-    options_for(df_option_scope, PROVINCE_COL),
-    index=0,
-)
-
-df_option_scope = apply_single_filter(df_option_scope, PROVINCE_COL, selected_province)
-
-selected_source = st.sidebar.selectbox(
-    "Source",
-    options_for(df_option_scope, SOURCE_COL),
-    index=0,
-)
-
-df_option_scope = apply_single_filter(df_option_scope, SOURCE_COL, selected_source)
-
-selected_egg_type = st.sidebar.selectbox(
-    "Egg type",
-    options_for(df_option_scope, EGG_TYPE_COL),
-    index=0,
-)
+selected_region = st.sidebar.selectbox("Region", options_for(scope, REGION_COL))
+region_scope = apply_single_filter(scope, REGION_COL, selected_region)
+selected_province = st.sidebar.selectbox("Province", options_for(region_scope, PROVINCE_COL))
+province_scope = apply_single_filter(region_scope, PROVINCE_COL, selected_province)
+selected_source = st.sidebar.selectbox("Source", options_for(province_scope, SOURCE_COL))
 
 with st.sidebar.expander("More filters"):
-    selected_productions = st.multiselect(
-        "Production system",
-        options=values_for(df_option_scope, PRODUCTION_COL),
-        default=[],
-        help=(
-            "Select one or more production systems. "
-            "Leave empty to include all production systems."
-        ),
-    )
-    selected_brand = st.selectbox(
-        "Brand",
-        options_for(df_option_scope, BRAND_COL),
-        index=0,
-    )
-    selected_store = st.selectbox(
-        "Store",
-        options_for(df_option_scope, STORE_COL),
-        index=0,
-    )
-    selected_product = st.selectbox(
-        "Product",
-        options_for(df_option_scope, PRODUCT_COL),
-        index=0,
-    )
-    selected_quality = st.selectbox(
-        "Quality status",
-        options_for(df_option_scope, QUALITY_COL),
-        index=0,
-        help="REVIEW observations remain analytically usable but are kept visible for monitoring.",
-    )
-    selected_origin = st.selectbox(
-        "Data origin",
-        options_for(df_option_scope, DATA_ORIGIN_COL),
-        index=0,
-    )
+    selected_egg_type = st.selectbox("Raw egg type (optional)", options_for(province_scope, EGG_TYPE_COL), help="Underlying source egg-type label. The client-facing comparison uses Housing system.")
+    selected_brand = st.selectbox("Brand", options_for(province_scope, BRAND_COL))
+    selected_store = st.selectbox("Store", options_for(province_scope, STORE_COL))
+    selected_product = st.selectbox("Product", options_for(province_scope, PRODUCT_COL))
 
-# ============================================================
-# APPLY FILTERS
-# ============================================================
-df_f = df_scope.copy()
-filter_pairs = [
+# Apply all filters.
+df_f = scope.copy()
+for column, selected in [
     (PRICE_LEVEL_COL, selected_price_level),
     (REGION_COL, selected_region),
     (PROVINCE_COL, selected_province),
@@ -511,674 +344,406 @@ filter_pairs = [
     (BRAND_COL, selected_brand),
     (STORE_COL, selected_store),
     (PRODUCT_COL, selected_product),
-    (QUALITY_COL, selected_quality),
-    (DATA_ORIGIN_COL, selected_origin),
-]
-
-for column, selected in filter_pairs:
+]:
     df_f = apply_single_filter(df_f, column, selected)
 
-# Production system supports one or multiple selections.
-# If nothing is selected, all production systems remain in scope.
-if selected_productions and PRODUCTION_COL in df_f.columns:
-    df_f = df_f[
-        df_f[PRODUCTION_COL].astype(str).isin(selected_productions)
-    ].copy()
+if selected_housing:
+    df_f = df_f[df_f[HOUSING_COL].isin(selected_housing)].copy()
 
 if df_f.empty:
     st.warning("No data found for the selected filters.")
     st.stop()
 
-st.sidebar.caption(
-    f"Selected data range: {df_f[DATE_COL].min().date()} to {df_f[DATE_COL].max().date()}"
-)
+st.sidebar.caption(f"Selected range: {df_f[DATE_COL].min().date()} to {df_f[DATE_COL].max().date()}")
 st.sidebar.caption(f"Usable observations: {len(df_f):,}")
 
-
 # ============================================================
-# TOP KPIs
+# PRICE SNAPSHOT
 # ============================================================
 st.subheader("Price Snapshot")
+market_avg = level_average(df_f, "Market")
+farmgate_avg = level_average(df_f, "Farmgate")
+retail_avg = level_average(df_f, "Retail")
 
-levels_in_scope = [
-    level for level in ["Market", "Farmgate", "Retail"]
-    if level in df_f[PRICE_LEVEL_COL].dropna().unique()
-]
+k1, k2, k3, k4, k5 = st.columns(5)
+k1.metric("Avg Market Price", format_vnd(market_avg))
+k2.metric("Avg Farmgate Price", format_vnd(farmgate_avg))
+k3.metric("Avg Retail Price", format_vnd(retail_avg))
+k4.metric("Observations", f"{len(df_f):,}")
+k5.metric("Latest Observation", df_f[DATE_COL].max().strftime("%d %b %Y"))
 
-if selected_price_level == "(All)":
-    kpi_cols = st.columns(5)
+st.divider()
 
-    for idx, level in enumerate(["Market", "Farmgate", "Retail"]):
-        level_data = df_f[df_f[PRICE_LEVEL_COL] == level]
-        value = level_data[PRICE_COL].mean() if not level_data.empty else np.nan
-        kpi_cols[idx].metric(f"Avg {level} Price", format_vnd(value))
+# ============================================================
+# 1. RETAIL VS MARKET / FARMGATE
+# ============================================================
+st.subheader("1) Retail vs Market / Farmgate Prices")
+level_summary = (
+    df_f.groupby(PRICE_LEVEL_COL, as_index=False)
+    .agg(Average_Price=(PRICE_COL, "mean"), Observations=(PRICE_COL, "size"))
+)
+level_summary[PRICE_LEVEL_COL] = pd.Categorical(
+    level_summary[PRICE_LEVEL_COL], categories=LEVEL_ORDER, ordered=True
+)
+level_summary = level_summary.sort_values(PRICE_LEVEL_COL)
 
-    kpi_cols[3].metric("Observations", f"{len(df_f):,}")
-    kpi_cols[4].metric("Latest Observation", df_f[DATE_COL].max().strftime("%d %b %Y"))
-else:
-    latest_date = df_f[DATE_COL].max()
-    latest_avg = df_f.loc[df_f[DATE_COL] == latest_date, PRICE_COL].mean()
-    avg_price = df_f[PRICE_COL].mean()
-    min_price = df_f[PRICE_COL].min()
-    max_price = df_f[PRICE_COL].max()
-    std_price = df_f[PRICE_COL].std()
+fig_level = px.bar(
+    level_summary,
+    x=PRICE_LEVEL_COL,
+    y="Average_Price",
+    color=PRICE_LEVEL_COL,
+    color_discrete_map=LEVEL_COLOR_MAP,
+    text=level_summary["Average_Price"].round(0),
+    title="Average Price per Egg by Supply-Chain Level",
+)
+fig_level.update_traces(texttemplate="₫%{text:,.0f}", textposition="outside")
+fig_level.update_layout(
+    xaxis_title="Price level", yaxis_title="Average price per egg (VND)",
+    yaxis_tickformat=",", showlegend=False,
+)
+style_figure(fig_level)
+st.plotly_chart(fig_level, use_container_width=True)
 
-    k1, k2, k3, k4, k5 = st.columns(5)
-    k1.metric(f"Avg {selected_price_level} Price", format_vnd(avg_price))
-    k2.metric("Latest Daily Avg", format_vnd(latest_avg), latest_date.strftime("%d %b %Y"))
-    k3.metric("Minimum", format_vnd(min_price))
-    k4.metric("Maximum", format_vnd(max_price))
-    k5.metric("Volatility (Std)", format_vnd(std_price))
+# ============================================================
+# 2. MARKET -> RETAIL SPREAD
+# ============================================================
+st.subheader("2) Market → Retail Spread")
+base, target, spread, spread_pct = spread_metrics(df_f, "Market", "Retail")
 
-# Simple market-to-retail spread for the selected period.
-market_avg = df_f.loc[df_f[PRICE_LEVEL_COL] == "Market", PRICE_COL].mean()
-retail_avg = df_f.loc[df_f[PRICE_LEVEL_COL] == "Retail", PRICE_COL].mean()
+s1, s2, s3, s4 = st.columns(4)
+s1.metric("Market Price", format_vnd(base))
+s2.metric("Retail Price", format_vnd(target))
+s3.metric("Retail Spread", format_vnd(spread) if pd.notna(spread) else "—")
+s4.metric("Spread %", format_pct(spread_pct))
 
-if selected_price_level == "(All)" and pd.notna(market_avg) and pd.notna(retail_avg):
-    spread = retail_avg - market_avg
-    spread_pct = spread / market_avg * 100 if market_avg != 0 else np.nan
+if pd.notna(spread):
+    direction = "above" if spread >= 0 else "below"
     st.markdown(
         f"""
         <div class="hf-note">
-        <b>Selected-period retail premium:</b> {format_vnd(spread)} per egg
-        ({spread_pct:,.1f}% above the simple average market price).<br>
-        <span class="hf-small">This is a descriptive price spread, not a retailer margin calculation.</span>
+        Retail is <b>{format_vnd(abs(spread))} per egg</b> ({abs(spread_pct):,.1f}%) {direction} the selected-period market average.
+        <br><span class="hf-small">This is a descriptive price spread, not retailer margin or profit.</span>
         </div>
         """,
         unsafe_allow_html=True,
     )
+else:
+    st.info("Both Market and Retail observations are required to calculate the selected-period spread.")
+
+# If farmgate data is available, show the equivalent Farmgate -> Retail spread.
+f_base, f_target, f_spread, f_spread_pct = spread_metrics(df_f, "Farmgate", "Retail")
+if pd.notna(f_spread):
+    st.markdown("#### Farmgate → Retail Spread")
+    f1, f2, f3, f4 = st.columns(4)
+    f1.metric("Farmgate Price", format_vnd(f_base))
+    f2.metric("Retail Price", format_vnd(f_target))
+    f3.metric("Retail Spread", format_vnd(f_spread))
+    f4.metric("Spread %", format_pct(f_spread_pct))
+
+# Housing-matched spread. Unknown housing is deliberately excluded.
+housing_for_spread = df_f[df_f[HOUSING_COL].isin(HOUSING_ORDER)].copy()
+if not housing_for_spread.empty:
+    housing_levels = (
+        housing_for_spread.groupby([HOUSING_COL, PRICE_LEVEL_COL], as_index=False)
+        .agg(Average_Price=(PRICE_COL, "mean"), Observations=(PRICE_COL, "size"))
+    )
+    pivot = housing_levels.pivot(index=HOUSING_COL, columns=PRICE_LEVEL_COL, values="Average_Price")
+    counts = housing_levels.pivot(index=HOUSING_COL, columns=PRICE_LEVEL_COL, values="Observations")
+    rows = []
+    for housing in HOUSING_ORDER:
+        if housing not in pivot.index:
+            continue
+        market = pivot.loc[housing].get("Market", np.nan)
+        farmgate = pivot.loc[housing].get("Farmgate", np.nan)
+        retail = pivot.loc[housing].get("Retail", np.nan)
+        h_spread = retail - market if pd.notna(retail) and pd.notna(market) else np.nan
+        h_pct = h_spread / market * 100 if pd.notna(h_spread) and market else np.nan
+        rows.append({
+            "Housing System": housing,
+            "Market (VND/egg)": market,
+            "Farmgate (VND/egg)": farmgate,
+            "Retail (VND/egg)": retail,
+            "Market → Retail Spread": h_spread,
+            "Spread %": h_pct,
+            "Retail Observations": counts.loc[housing].get("Retail", 0) if housing in counts.index else 0,
+        })
+    if rows:
+        spread_table = pd.DataFrame(rows)
+        st.markdown("#### Spread by Housing System")
+        st.dataframe(
+            spread_table.style.format({
+                "Market (VND/egg)": "₫{:,.0f}",
+                "Farmgate (VND/egg)": "₫{:,.0f}",
+                "Retail (VND/egg)": "₫{:,.0f}",
+                "Market → Retail Spread": "₫{:,.0f}",
+                "Spread %": "{:+,.1f}%",
+                "Retail Observations": "{:,.0f}",
+            }, na_rep="—"),
+            use_container_width=True,
+            hide_index=True,
+        )
 
 st.divider()
 
-
 # ============================================================
-# 1. MARKET / FARMGATE / RETAIL COMPARISON
+# 3. CAGED VS CAGE-FREE VS FREE-RANGE
 # ============================================================
-st.subheader("1) Price Level Comparison")
+st.subheader("3) Housing-System Price Comparison")
+known_housing = df_f[df_f[HOUSING_COL].isin(HOUSING_ORDER)].copy()
 
-level_summary = (
-    df_f.groupby(PRICE_LEVEL_COL, as_index=False)
-    .agg(
-        Average_Price=(PRICE_COL, "mean"),
-        Minimum_Price=(PRICE_COL, "min"),
-        Maximum_Price=(PRICE_COL, "max"),
-        Observations=(PRICE_COL, "size"),
-    )
-)
-
-if level_summary.empty:
-    st.info("No price-level data is available for the selected filters.")
+if known_housing.empty:
+    st.info("No correctly labeled Caged, Cage-Free or Free-Range observations are available for the current filters.")
 else:
-    fig_level = px.bar(
-        level_summary,
-        x=PRICE_LEVEL_COL,
+    housing_level_summary = (
+        known_housing.groupby([HOUSING_COL, PRICE_LEVEL_COL], as_index=False)
+        .agg(Average_Price=(PRICE_COL, "mean"), Observations=(PRICE_COL, "size"))
+    )
+    fig_housing = px.bar(
+        housing_level_summary,
+        x=HOUSING_COL,
         y="Average_Price",
         color=PRICE_LEVEL_COL,
+        barmode="group",
         color_discrete_map=LEVEL_COLOR_MAP,
-        text=level_summary["Average_Price"].round(0),
-        title="Average Price per Egg by Price Level",
+        text=housing_level_summary["Average_Price"].round(0),
+        category_orders={HOUSING_COL: HOUSING_ORDER, PRICE_LEVEL_COL: LEVEL_ORDER},
+        title="Average Price by Housing System and Price Level",
     )
-    fig_level.update_traces(texttemplate="₫%{text:,.0f}", textposition="outside")
-    fig_level.update_layout(
-        xaxis_title="Price level",
-        yaxis_title="Average price per egg (VND)",
-        yaxis_tickformat=",",
-        showlegend=False,
+    fig_housing.update_traces(texttemplate="₫%{text:,.0f}", textposition="outside")
+    fig_housing.update_layout(
+        xaxis_title="Housing system", yaxis_title="Average price per egg (VND)", yaxis_tickformat=","
     )
-    style_figure(fig_level)
-    st.plotly_chart(fig_level, use_container_width=True)
+    style_figure(fig_housing, "Price level")
+    st.plotly_chart(fig_housing, use_container_width=True)
 
-    st.caption(
-        "Market, farmgate, and retail observations are shown separately to avoid blending different supply-chain price levels."
-    )
+    retail_known = known_housing[known_housing[PRICE_LEVEL_COL] == "Retail"].copy()
+    if not retail_known.empty:
+        retail_housing = (
+            retail_known.groupby(HOUSING_COL, as_index=False)
+            .agg(Average_Retail_Price=(PRICE_COL, "mean"), Observations=(PRICE_COL, "size"))
+        )
+        retail_housing[HOUSING_COL] = pd.Categorical(
+            retail_housing[HOUSING_COL], categories=HOUSING_ORDER, ordered=True
+        )
+        retail_housing = retail_housing.sort_values(HOUSING_COL)
 
-st.divider()
+        st.markdown("#### Retail: Is Cage-Free / Free-Range More Expensive?")
+        caged_rows = retail_housing[retail_housing[HOUSING_COL] == "Caged"]
+        caged_avg = caged_rows["Average_Retail_Price"].iloc[0] if not caged_rows.empty else np.nan
 
+        # Client-facing headline premium: only appears when the comparison category exists.
+        cage_free_rows = retail_housing[retail_housing[HOUSING_COL] == "Cage-Free"]
+        free_range_rows = retail_housing[retail_housing[HOUSING_COL] == "Free-Range"]
+        if pd.notna(caged_avg) and not cage_free_rows.empty:
+            cf_avg = cage_free_rows["Average_Retail_Price"].iloc[0]
+            cf_diff = cf_avg - caged_avg
+            cf_pct = cf_diff / caged_avg * 100 if caged_avg else np.nan
+            p1, p2, p3 = st.columns(3)
+            p1.metric("Caged Retail", format_vnd(caged_avg))
+            p2.metric("Cage-Free Retail", format_vnd(cf_avg))
+            p3.metric("Cage-Free Premium vs Caged", format_vnd(cf_diff), format_pct(cf_pct))
+        if pd.notna(caged_avg) and not free_range_rows.empty:
+            fr_avg = free_range_rows["Average_Retail_Price"].iloc[0]
+            fr_diff = fr_avg - caged_avg
+            fr_pct = fr_diff / caged_avg * 100 if caged_avg else np.nan
+            p1, p2, p3 = st.columns(3)
+            p1.metric("Caged Retail", format_vnd(caged_avg))
+            p2.metric("Free-Range Retail", format_vnd(fr_avg))
+            p3.metric("Free-Range Premium vs Caged", format_vnd(fr_diff), format_pct(fr_pct))
 
-# ============================================================
-# EGG TYPE PRICE COMPARISON BY PRODUCTION SYSTEM
-# ------------------------------------------------------------
-# The user can select one or multiple production systems.
-# This dedicated chart keeps all egg types in scope so they
-# can be compared side by side.
-# ============================================================
-st.subheader("Egg Type Price Comparison by Production System")
+        comparison_rows = []
+        for _, row in retail_housing.iterrows():
+            housing = str(row[HOUSING_COL])
+            avg = row["Average_Retail_Price"]
+            if pd.notna(caged_avg) and caged_avg != 0:
+                diff = avg - caged_avg
+                pct = diff / caged_avg * 100
+            else:
+                diff = pct = np.nan
+            comparison_rows.append({
+                "Housing System": housing,
+                "Avg Retail Price (VND/egg)": avg,
+                "Difference vs Caged": diff,
+                "% vs Caged": pct,
+                "Observations": row["Observations"],
+            })
 
-if not selected_productions:
-    st.info(
-        "Select one or more Production systems under **More filters** "
-        "to compare egg-type prices."
-    )
-else:
-    # Start from the date-filtered dataset and apply the same filters
-    # except Egg type. This keeps both/all egg types available here.
-    production_compare = df_scope.copy()
-
-    comparison_filters = [
-        (PRICE_LEVEL_COL, selected_price_level),
-        (REGION_COL, selected_region),
-        (PROVINCE_COL, selected_province),
-        (SOURCE_COL, selected_source),
-        (BRAND_COL, selected_brand),
-        (STORE_COL, selected_store),
-        (PRODUCT_COL, selected_product),
-        (QUALITY_COL, selected_quality),
-        (DATA_ORIGIN_COL, selected_origin),
-    ]
-
-    for column, selected in comparison_filters:
-        production_compare = apply_single_filter(
-            production_compare,
-            column,
-            selected,
+        comparison = pd.DataFrame(comparison_rows)
+        st.dataframe(
+            comparison.style.format({
+                "Avg Retail Price (VND/egg)": "₫{:,.0f}",
+                "Difference vs Caged": "{:+,.0f}",
+                "% vs Caged": "{:+,.1f}%",
+                "Observations": "{:,.0f}",
+            }, na_rep="—"),
+            use_container_width=True,
+            hide_index=True,
         )
 
-    production_compare = production_compare[
-        production_compare[PRODUCTION_COL]
-        .astype(str)
-        .isin(selected_productions)
-    ].copy()
-
-    production_compare = production_compare[
-        production_compare[EGG_TYPE_COL].notna()
-        & production_compare[PRICE_COL].notna()
-    ].copy()
-
-    if production_compare.empty:
-        st.info(
-            "No egg-type price data is available for the selected "
-            "production system and filters."
-        )
-    else:
-        egg_type_summary = (
-            production_compare
-            .groupby([PRODUCTION_COL, EGG_TYPE_COL], as_index=False)
-            .agg(
-                Average_Price=(PRICE_COL, "mean"),
-                Minimum_Price=(PRICE_COL, "min"),
-                Maximum_Price=(PRICE_COL, "max"),
-                Observations=(PRICE_COL, "size"),
+        sparse = comparison[(comparison["Housing System"] != "Caged") & (comparison["Observations"] < 5)]
+        if not sparse.empty:
+            st.warning(
+                "One or more non-caged categories have fewer than 5 observations in the current filters. "
+                "Treat the price difference as directional until more Cage-Free / Free-Range data is collected."
             )
-        )
 
-        fig_egg_compare = px.bar(
-            egg_type_summary,
-            x=PRODUCTION_COL,
-            y="Average_Price",
-            color=EGG_TYPE_COL,
-            barmode="group",
-            text=egg_type_summary["Average_Price"].round(0),
-            color_discrete_sequence=[
-                HF_DARK_GREEN,
-                HF_TERRACOTTA,
-                HF_WARM_YELLOW,
-                HF_SAGE,
-            ],
-            title="Average Price per Egg by Production System and Egg Type",
-            hover_data={
-                "Minimum_Price": ":,.0f",
-                "Maximum_Price": ":,.0f",
-                "Observations": True,
-            },
-        )
-
-        fig_egg_compare.update_traces(
-            texttemplate="₫%{text:,.0f}",
-            textposition="outside",
-        )
-        fig_egg_compare.update_layout(
-            xaxis_title="Production system",
-            yaxis_title="Average price per egg (VND)",
-            yaxis_tickformat=",",
-            legend_title_text="Egg type",
-        )
-        style_figure(fig_egg_compare, "Egg type")
-        st.plotly_chart(fig_egg_compare, use_container_width=True)
-
-        st.caption(
-            "The chart compares the available egg types side by side for "
-            "the selected production system(s). You can select one system "
-            "or multiple systems."
-        )
-
+        non_caged_present = set(retail_housing[HOUSING_COL].astype(str)) - {"Caged"}
+        if not non_caged_present:
+            st.info(
+                "No Cage-Free or explicit Free-Range retail observations are available yet for the current filters. "
+                "They will appear automatically when the new retail scrapers add correctly labeled records."
+            )
 
 st.divider()
 
-
 # ============================================================
-# 2. REGIONAL PRICE COMPARISON
+# 4. PRICE TREND
 # ============================================================
-st.subheader("2) Regional Price Comparison")
+st.subheader("4) Price Trend")
+trend_mode = st.radio("Trend view", ["Price Level", "Housing System"], horizontal=True)
+rule, aggregation_label = aggregation_rule(df_f)
 
-df_region = df_f[
-    df_f[REGION_COL].notna()
-    & ~df_f[REGION_COL].astype(str).eq("Unknown")
-].copy()
-
-if df_region.empty:
-    st.info("Not enough region data to show a regional comparison.")
-else:
-    if selected_price_level == "(All)":
-        region_summary = (
-            df_region.groupby([REGION_COL, PRICE_LEVEL_COL], as_index=False)[PRICE_COL]
-            .mean()
-        )
-        fig_region = px.bar(
-            region_summary,
-            x=REGION_COL,
-            y=PRICE_COL,
-            color=PRICE_LEVEL_COL,
-            barmode="group",
-            color_discrete_map=LEVEL_COLOR_MAP,
-            title="Average Price per Egg by Region and Price Level",
-        )
-        fig_region.update_layout(legend_title_text="Price level")
-    else:
-        region_summary = (
-            df_region.groupby(REGION_COL, as_index=False)[PRICE_COL]
-            .mean()
-            .sort_values(PRICE_COL, ascending=False)
-        )
-        fig_region = px.bar(
-            region_summary,
-            x=REGION_COL,
-            y=PRICE_COL,
-            color=REGION_COL,
-            color_discrete_map=REGION_COLOR_MAP,
-            text=region_summary[PRICE_COL].round(0),
-            title=f"Average {selected_price_level} Price by Region",
-        )
-        fig_region.update_traces(texttemplate="₫%{text:,.0f}", textposition="outside")
-        fig_region.update_layout(showlegend=False)
-
-    fig_region.update_layout(
-        xaxis_title="Region",
-        yaxis_title="Average price per egg (VND)",
-        yaxis_tickformat=",",
+if trend_mode == "Price Level":
+    trend = (
+        df_f.set_index(DATE_COL)
+        .groupby(PRICE_LEVEL_COL)[PRICE_COL]
+        .resample(rule).mean().reset_index().dropna(subset=[PRICE_COL])
     )
-    style_figure(fig_region)
+    if trend.empty:
+        st.info("Not enough observations to build the price-level trend.")
+    else:
+        fig_trend = px.line(
+            trend, x=DATE_COL, y=PRICE_COL, color=PRICE_LEVEL_COL, markers=True,
+            color_discrete_map=LEVEL_COLOR_MAP,
+            category_orders={PRICE_LEVEL_COL: LEVEL_ORDER},
+            title=f"{aggregation_label} Price Trend by Price Level",
+        )
+        fig_trend.update_layout(xaxis_title="Date", yaxis_title="Average price per egg (VND)", yaxis_tickformat=",")
+        style_figure(fig_trend, "Price level")
+        st.plotly_chart(fig_trend, use_container_width=True)
+else:
+    trend_scope = df_f[df_f[HOUSING_COL].isin(HOUSING_ORDER)].copy()
+    trend = (
+        trend_scope.set_index(DATE_COL)
+        .groupby(HOUSING_COL)[PRICE_COL]
+        .resample(rule).mean().reset_index().dropna(subset=[PRICE_COL])
+    ) if not trend_scope.empty else pd.DataFrame()
+    if trend.empty:
+        st.info("No correctly labeled housing-system data is available for this trend.")
+    else:
+        fig_trend = px.line(
+            trend, x=DATE_COL, y=PRICE_COL, color=HOUSING_COL, markers=True,
+            color_discrete_map=HOUSING_COLOR_MAP,
+            category_orders={HOUSING_COL: HOUSING_ORDER},
+            title=f"{aggregation_label} Price Trend by Housing System",
+        )
+        fig_trend.update_layout(xaxis_title="Date", yaxis_title="Average price per egg (VND)", yaxis_tickformat=",")
+        style_figure(fig_trend, "Housing system")
+        st.plotly_chart(fig_trend, use_container_width=True)
+
+st.divider()
+
+# ============================================================
+# 5. REGIONAL COMPARISON
+# ============================================================
+st.subheader("5) Regional Price Comparison")
+region_data = df_f[df_f[REGION_COL].notna()].copy()
+if region_data.empty:
+    st.info("No regional data is available for the current filters.")
+else:
+    region_summary = (
+        region_data.groupby([REGION_COL, PRICE_LEVEL_COL], as_index=False)[PRICE_COL].mean()
+    )
+    fig_region = px.bar(
+        region_summary, x=REGION_COL, y=PRICE_COL, color=PRICE_LEVEL_COL,
+        barmode="group", color_discrete_map=LEVEL_COLOR_MAP,
+        category_orders={PRICE_LEVEL_COL: LEVEL_ORDER},
+        title="Average Price by Region and Price Level",
+    )
+    fig_region.update_layout(xaxis_title="Region", yaxis_title="Average price per egg (VND)", yaxis_tickformat=",")
+    style_figure(fig_region, "Price level")
     st.plotly_chart(fig_region, use_container_width=True)
 
 st.divider()
 
-
 # ============================================================
-# 3. PRICE TREND
-# ------------------------------------------------------------
-# When All price levels are selected, trends are separated by
-# price level. When one level is selected, trends are separated
-# by region.
-# ============================================================
-st.subheader("3) Price Trend")
-
-trend_data = df_f[df_f[DATE_COL].notna()].copy()
-rule, aggregation_label = aggregation_rule(trend_data)
-
-if trend_data.empty:
-    st.info("Not enough dated observations to show a trend.")
-else:
-    if selected_price_level == "(All)":
-        trend = (
-            trend_data.set_index(DATE_COL)
-            .groupby(PRICE_LEVEL_COL)[PRICE_COL]
-            .resample(rule)
-            .mean()
-            .reset_index()
-            .dropna(subset=[PRICE_COL])
-        )
-        fig_trend = px.line(
-            trend,
-            x=DATE_COL,
-            y=PRICE_COL,
-            color=PRICE_LEVEL_COL,
-            markers=True,
-            color_discrete_map=LEVEL_COLOR_MAP,
-            title=f"{aggregation_label} Average Price Trend by Price Level",
-        )
-        legend_title = "Price level"
-    else:
-        trend_scope = trend_data[
-            trend_data[REGION_COL].notna()
-            & ~trend_data[REGION_COL].astype(str).eq("Unknown")
-        ]
-        trend = (
-            trend_scope.set_index(DATE_COL)
-            .groupby(REGION_COL)[PRICE_COL]
-            .resample(rule)
-            .mean()
-            .reset_index()
-            .dropna(subset=[PRICE_COL])
-        )
-        fig_trend = px.line(
-            trend,
-            x=DATE_COL,
-            y=PRICE_COL,
-            color=REGION_COL,
-            markers=True,
-            color_discrete_map=REGION_COLOR_MAP,
-            title=f"{aggregation_label} {selected_price_level} Price Trend by Region",
-        )
-        legend_title = "Region"
-
-    if trend.empty:
-        st.info("Not enough observations are available after filtering to build the trend chart.")
-    else:
-        fig_trend.update_layout(
-            xaxis_title="Date",
-            yaxis_title="Average price per egg (VND)",
-            yaxis_tickformat=",",
-        )
-        style_figure(fig_trend, legend_title)
-        st.plotly_chart(fig_trend, use_container_width=True)
-
-        # Short-term direction table for the series displayed.
-        series_col = PRICE_LEVEL_COL if selected_price_level == "(All)" else REGION_COL
-        direction_rows = []
-        for series_name in sorted(trend[series_col].dropna().unique()):
-            ts = trend.loc[trend[series_col] == series_name, [DATE_COL, PRICE_COL]].sort_values(DATE_COL)
-            values = ts[PRICE_COL].dropna()
-            if len(values) < 4:
-                pct = np.nan
-            else:
-                previous = values.iloc[-4:-2].mean()
-                current = values.iloc[-2:].mean()
-                pct = safe_pct_change(previous, current)
-
-            direction_rows.append(
-                {
-                    series_col: series_name,
-                    "Short-term direction": direction_from_change(pct),
-                    "Change (%)": round(pct, 1) if pd.notna(pct) else np.nan,
-                }
-            )
-
-        if direction_rows:
-            st.dataframe(
-                pd.DataFrame(direction_rows),
-                use_container_width=True,
-                hide_index=True,
-            )
-            st.caption(
-                f"Direction compares the latest two {aggregation_label.lower()} observations with the previous two."
-            )
-
-st.divider()
-
-
-# ============================================================
-# 4. VOLATILITY / PRICE STABILITY
-# ------------------------------------------------------------
-# Volatility is only meaningful when one price level is selected.
-# ============================================================
-st.subheader("4) Price Stability by Region")
-
-if selected_price_level == "(All)":
-    st.info(
-        "Select one Price Level (Market, Farmgate, or Retail) to compare volatility without mixing different supply-chain prices."
-    )
-else:
-    vol_data = df_f[
-        df_f[DATE_COL].notna()
-        & df_f[REGION_COL].notna()
-        & ~df_f[REGION_COL].astype(str).eq("Unknown")
-    ].copy()
-
-    if vol_data.empty:
-        st.info("Not enough regional data is available for a volatility calculation.")
-    else:
-        weekly = (
-            vol_data.set_index(DATE_COL)
-            .groupby(REGION_COL)[PRICE_COL]
-            .resample("W")
-            .mean()
-            .reset_index()
-            .dropna(subset=[PRICE_COL])
-        )
-
-        vol = (
-            weekly.groupby(REGION_COL, as_index=False)[PRICE_COL]
-            .agg(std="std", mean="mean", observations="count")
-        )
-
-        valid_std = vol["std"].dropna()
-        if len(valid_std) >= 3:
-            q1 = valid_std.quantile(0.33)
-            q2 = valid_std.quantile(0.66)
-        elif not valid_std.empty:
-            q1 = valid_std.median()
-            q2 = valid_std.median()
-        else:
-            q1 = q2 = np.nan
-
-        def volatility_label(value):
-            if pd.isna(value):
-                return "Not enough data"
-            if pd.isna(q1) or pd.isna(q2):
-                return "Not enough data"
-            if value <= q1:
-                return "Stable"
-            if value <= q2:
-                return "Moderate"
-            return "Risky"
-
-        vol["Volatility level"] = vol["std"].apply(volatility_label)
-
-        VOL_COLOR_MAP = {
-            "Stable": HF_GREEN,
-            "Moderate": HF_WARM_YELLOW,
-            "Risky": HF_TERRACOTTA,
-            "Not enough data": HF_SAGE,
-        }
-
-        fig_vol = px.bar(
-            vol.sort_values("std", ascending=False),
-            x=REGION_COL,
-            y="std",
-            color="Volatility level",
-            color_discrete_map=VOL_COLOR_MAP,
-            title=f"Weekly {selected_price_level} Price Volatility by Region",
-        )
-        fig_vol.update_layout(
-            xaxis_title="Region",
-            yaxis_title="Standard deviation (VND per egg)",
-            yaxis_tickformat=",",
-        )
-        style_figure(fig_vol, "Volatility level")
-        st.plotly_chart(fig_vol, use_container_width=True)
-
-        st.caption(
-            "Lower volatility suggests more stable observed prices. The labels are relative to the regions available in the selected dataset."
-        )
-
-
-# ============================================================
-# 5. RETAIL MARKET INTELLIGENCE
-# ------------------------------------------------------------
-# This section appears whenever retail observations remain in the
-# current filter scope.
+# 6. RETAIL PRODUCT INTELLIGENCE
 # ============================================================
 retail = df_f[df_f[PRICE_LEVEL_COL] == "Retail"].copy()
-
-if not retail.empty:
-    st.divider()
-    st.subheader("5) Retail Market Intelligence")
-
-    retail_avg = retail[PRICE_COL].mean()
-    retail_pack_avg = (
-        retail[PACK_PRICE_COL].mean()
-        if PACK_PRICE_COL in retail.columns and retail[PACK_PRICE_COL].notna().any()
-        else np.nan
-    )
-    retail_brands = retail[BRAND_COL].nunique(dropna=True) if BRAND_COL in retail.columns else 0
-    retail_stores = retail[STORE_COL].nunique(dropna=True) if STORE_COL in retail.columns else 0
-
+st.subheader("6) Retail Product Intelligence")
+if retail.empty:
+    st.info("No retail observations are available for the current filters.")
+else:
     r1, r2, r3, r4 = st.columns(4)
-    r1.metric("Avg Retail Price / Egg", format_vnd(retail_avg))
-    r2.metric("Avg Retail Pack Price", format_vnd(retail_pack_avg))
-    r3.metric("Brands", f"{retail_brands:,}")
-    r4.metric("Stores", f"{retail_stores:,}")
+    r1.metric("Avg Retail Price / Egg", format_vnd(retail[PRICE_COL].mean()))
+    r2.metric("Retail Observations", f"{len(retail):,}")
+    r3.metric("Brands", f"{retail[BRAND_COL].nunique(dropna=True):,}" if BRAND_COL in retail else "—")
+    r4.metric("Stores", f"{retail[STORE_COL].nunique(dropna=True):,}" if STORE_COL in retail else "—")
 
-    left, right = st.columns(2)
+    if BRAND_COL in retail.columns and retail[BRAND_COL].notna().any():
+        brand_summary = (
+            retail.dropna(subset=[BRAND_COL])
+            .groupby([BRAND_COL, HOUSING_COL], as_index=False)
+            .agg(Average_Price=(PRICE_COL, "mean"), Observations=(PRICE_COL, "size"))
+            .sort_values("Observations", ascending=False).head(20)
+        )
+        fig_brand = px.bar(
+            brand_summary, x="Average_Price", y=BRAND_COL, color=HOUSING_COL,
+            orientation="h", color_discrete_map=HOUSING_COLOR_MAP,
+            title="Retail Price by Brand and Housing System",
+        )
+        fig_brand.update_layout(xaxis_title="Average price per egg (VND)", yaxis_title="Brand", xaxis_tickformat=",")
+        style_figure(fig_brand, "Housing system")
+        st.plotly_chart(fig_brand, use_container_width=True)
 
-    with left:
-        if BRAND_COL in retail.columns and retail[BRAND_COL].notna().any():
-            brand_summary = (
-                retail.dropna(subset=[BRAND_COL])
-                .groupby(BRAND_COL, as_index=False)
-                .agg(
-                    Average_Price=(PRICE_COL, "mean"),
-                    Observations=(PRICE_COL, "size"),
-                )
-                .sort_values(["Observations", "Average_Price"], ascending=[False, False])
-                .head(12)
-            )
-            fig_brand = px.bar(
-                brand_summary.sort_values("Average_Price"),
-                x="Average_Price",
-                y=BRAND_COL,
-                orientation="h",
-                color_discrete_sequence=[HF_GREEN],
-                title="Average Retail Price by Brand",
-            )
-            fig_brand.update_layout(
-                xaxis_title="Average price per egg (VND)",
-                yaxis_title="Brand",
-                xaxis_tickformat=",",
-            )
-            style_figure(fig_brand)
-            st.plotly_chart(fig_brand, use_container_width=True)
-        else:
-            st.info("Brand information is not available for the selected retail records.")
-
-    with right:
-        if STORE_COL in retail.columns and retail[STORE_COL].notna().any():
-            store_summary = (
-                retail.dropna(subset=[STORE_COL])
-                .groupby(STORE_COL, as_index=False)
-                .agg(
-                    Average_Price=(PRICE_COL, "mean"),
-                    Observations=(PRICE_COL, "size"),
-                )
-                .sort_values("Observations", ascending=False)
-                .head(12)
-            )
-            fig_store = px.bar(
-                store_summary.sort_values("Average_Price"),
-                x="Average_Price",
-                y=STORE_COL,
-                orientation="h",
-                color_discrete_sequence=[HF_WARM_YELLOW],
-                title="Average Retail Price by Store",
-            )
-            fig_store.update_layout(
-                xaxis_title="Average price per egg (VND)",
-                yaxis_title="Store",
-                xaxis_tickformat=",",
-            )
-            style_figure(fig_store)
-            st.plotly_chart(fig_store, use_container_width=True)
-        else:
-            st.info("Store information is not available for the selected retail records.")
-
-    st.markdown("#### Latest Retail Product Observations")
-    retail_table_cols = [
-        DATE_COL,
-        SOURCE_COL,
-        REGION_COL,
-        PROVINCE_COL,
-        STORE_COL,
-        BRAND_COL,
-        PRODUCT_COL,
-        EGG_COUNT_COL,
-        PACK_PRICE_COL,
-        PRICE_COL,
-        QUALITY_COL,
-    ]
-    retail_table_cols = [c for c in retail_table_cols if c in retail.columns]
-
-    retail_table = (
-        retail[retail_table_cols]
-        .sort_values(DATE_COL, ascending=False)
-        .head(100)
-        .copy()
-    )
-
-    rename_map = {
-        DATE_COL: "Date",
-        REGION_COL: "Region",
-        PROVINCE_COL: "Province",
-        EGG_COUNT_COL: "Egg Count",
-        PACK_PRICE_COL: "Pack Price (VND)",
-        PRICE_COL: "Price / Egg (VND)",
-        QUALITY_COL: "Quality",
-    }
-    retail_table = retail_table.rename(columns=rename_map)
-    st.dataframe(retail_table, use_container_width=True, hide_index=True)
-
-
-# ============================================================
-# DATA COVERAGE AND DOWNLOAD
-# ============================================================
 st.divider()
+
+# ============================================================
+# DATA COVERAGE / QA
+# ============================================================
 st.subheader("Data Coverage")
-
-coverage_left, coverage_right = st.columns(2)
-
-with coverage_left:
+left, right = st.columns(2)
+with left:
     source_summary = (
         df_f.groupby(SOURCE_COL, as_index=False)
-        .agg(
-            Observations=(PRICE_COL, "size"),
-            First_Date=(DATE_COL, "min"),
-            Last_Date=(DATE_COL, "max"),
-        )
-        .sort_values("Observations", ascending=False)
+        .agg(Observations=(PRICE_COL, "size"))
+        .sort_values("Observations", ascending=False).head(15)
     )
     fig_source = px.bar(
-        source_summary.head(15).sort_values("Observations"),
-        x="Observations",
-        y=SOURCE_COL,
-        orientation="h",
-        color_discrete_sequence=[HF_DARK_GREEN],
-        title="Observations by Source",
+        source_summary.sort_values("Observations"), x="Observations", y=SOURCE_COL,
+        orientation="h", color_discrete_sequence=[HF_NAVY], title="Observations by Source"
     )
     style_figure(fig_source)
     st.plotly_chart(fig_source, use_container_width=True)
 
-with coverage_right:
-    level_counts = (
-        df_f.groupby(PRICE_LEVEL_COL, as_index=False)
+with right:
+    housing_counts = (
+        df_f.groupby(HOUSING_COL, as_index=False)
         .agg(Observations=(PRICE_COL, "size"))
         .sort_values("Observations", ascending=False)
     )
-    fig_counts = px.pie(
-        level_counts,
-        names=PRICE_LEVEL_COL,
-        values="Observations",
-        color=PRICE_LEVEL_COL,
-        color_discrete_map=LEVEL_COLOR_MAP,
-        hole=0.55,
-        title="Current Filter Coverage by Price Level",
+    fig_housing_count = px.bar(
+        housing_counts, x=HOUSING_COL, y="Observations", color=HOUSING_COL,
+        color_discrete_map={**HOUSING_COLOR_MAP, "Unknown": HF_MUTED},
+        category_orders={HOUSING_COL: HOUSING_ORDER + ["Unknown"]},
+        title="Housing-Label Coverage",
     )
-    style_figure(fig_counts, "Price level")
-    st.plotly_chart(fig_counts, use_container_width=True)
+    fig_housing_count.update_layout(showlegend=False, xaxis_title="Housing system", yaxis_title="Observations")
+    style_figure(fig_housing_count)
+    st.plotly_chart(fig_housing_count, use_container_width=True)
+
+known_count = int(df_f[HOUSING_COL].isin(HOUSING_ORDER).sum())
+unknown_count = int(df_f[HOUSING_COL].eq("Unknown").sum())
+st.caption(
+    f"Housing-labeled observations in current filters: {known_count:,}. "
+    f"Unclassified/Unknown: {unknown_count:,}. Unknown rows are excluded from housing-system comparisons."
+)
 
 with st.expander("View filtered data"):
     display_cols = [
-        DATE_COL,
-        PRICE_LEVEL_COL,
-        SOURCE_COL,
-        REGION_COL,
-        PROVINCE_COL,
-        CITY_COL,
-        EGG_TYPE_COL,
-        PRODUCTION_COL,
-        BRAND_COL,
-        PRODUCT_COL,
-        STORE_COL,
-        PACK_PRICE_COL,
-        PRICE_COL,
-        QUALITY_COL,
+        DATE_COL, PRICE_LEVEL_COL, SOURCE_COL, REGION_COL, PROVINCE_COL,
+        EGG_TYPE_COL, HOUSING_COL, HOUSING_STATUS_COL, BRAND_COL, PRODUCT_COL,
+        STORE_COL, EGG_COUNT_COL, PACK_PRICE_COL, PRICE_COL, QUALITY_COL,
     ]
     display_cols = [c for c in display_cols if c in df_f.columns]
     st.dataframe(
@@ -1188,6 +753,6 @@ with st.expander("View filtered data"):
     )
 
 st.caption(
-    "Dashboard calculations use the preprocessed Price Per Egg VND Clean field. "
-    "Market, farmgate, and retail observations are kept separate unless a comparison view explicitly shows them side by side."
+    "Dashboard prices use the cleaned VND/egg field. Market, Farmgate and Retail are never blended into one supply-chain price. "
+    "Housing comparisons only use Caged, Cage-Free and explicitly identified Free-Range records."
 )
